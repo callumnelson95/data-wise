@@ -1,0 +1,1134 @@
+﻿StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,Q2,Q3,Q5,Q6_1,Q7,Q8,Q9_1,Q9_2,Q10,Q11,Q12,Q13,Q14,Q15,Q16,Q17,Q18_1,Q18_2,Q19,Q20,Q21,Q22_1,Q22_2,Q23,Q24,Q25_1,Q25_2,Q26,Q27,Q28,Q29_1,Q29_2,Q30,Q31,Q32_1,Q32_2,Q33,Q34,Q35_1,Q35_2,Q36,Q37,Q38,Q39
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,What is your role?,What kind of team are you on?,Did you attend the Putting Data Wise into Action session yesterday?,[Optional Session] Putting Data Wise into Action (Max Yurkofsky) - Helpfulness of session,What worked well about this session?,What would you like to change about this session?,"[Faculty Session] Big Picture and Spiral Review (Candice Bocala & Kathryn Boudett)
+
+In this session, we reviewed the feedback from yesterday and provided feedback to our teaching fellow about how s/he can best support our learning. We then used the Vivid Images protocol to practice maintaining a relentless focus on evidence when looking at data. - Importance of topic","[Faculty Session] Big Picture and Spiral Review (Candice Bocala & Kathryn Boudett)
+
+In this session, we reviewed the feedback from yesterday and provided feedback to our teaching fellow about how s/he can best support our learning. We then used the Vivid Images protocol to practice maintaining a relentless focus on evidence when looking at data. - Quality of instruction",What worked well about this session?,What would you have liked to change about this session?,Please indicate the extent to which you agree with this statement:Today's sessions helped me re,What worked well about this activity?,What would you have liked to change about this activity?,"Please indicate the extent to which you agree with this statement:
+As a participant, I appreciated the opportunity to provide feedback to my teaching fellow.",Anything else you want us to know?,What would you have liked to change about this activity?,"[Faculty Session] Learning to See (Elizabeth City)
+
+In this session, we started with a Rock/Paper/Scissors tournament then practiced maintaining a relentless focus on evidence when looking at practice and used the Objectivity/Specificity Matrix to improve the quality of data we collect. We also discussed the importance of paying attention to task when observing practice. - Importance of Topic","[Faculty Session] Learning to See (Elizabeth City)
+
+In this session, we started with a Rock/Paper/Scissors tournament then practiced maintaining a relentless focus on evidence when looking at practice and used the Objectivity/Specificity Matrix to improve the quality of data we collect. We also discussed the importance of paying attention to task when observing practice. - Quality of Instruction",What worked well about this session?,What would you have liked to change about this session?,Which Step 5 Case did you participate in?,"[Case Session] Step 5 Case Discussion: Examining Instruction (Elementary)
+
+In this session we observed a video of teaching and then used the affinity protocol to help us work toward stating a problem of practice. - Importance of Topic","[Case Session] Step 5 Case Discussion: Examining Instruction (Elementary)
+
+In this session we observed a video of teaching and then used the affinity protocol to help us work toward stating a problem of practice. - Quality of Instruction",What worked well about this case discussion? (Elementary),What would you have liked to change about this case discussion? (Elementary),"[Case Session] Step 5 Case Discussion: Examining Instruction (High School)
+
+In this session we observed videos of teaching and then used the affinity protocol to help us work toward stating a problem of practice. - Importance of Topic","[Case Session] Step 5 Case Discussion: Examining Instruction (High School)
+
+In this session we observed videos of teaching and then used the affinity protocol to help us work toward stating a problem of practice. - Quality of Instruction",What worked well about this Case Discussion? (High School),What would you have liked to change about this Case Discussion? (High School),Which Step 6 & 7 Case did you participate in?,"[Case Session] Step 6 & 7 Case Discussion (Elementary)
+
+In this case we explored instructional strategies that address the case study school's problem of practice and reflected on our own baseline summaries as a way of selecting strategies for Steps 6 and 7. - Importance of Topic","[Case Session] Step 6 & 7 Case Discussion (Elementary)
+
+In this case we explored instructional strategies that address the case study school's problem of practice and reflected on our own baseline summaries as a way of selecting strategies for Steps 6 and 7. - Quality of Instruction",What worked well about this Case Discussion? (Elementary),What would you have liked to change about this Case Discussion? (Elementary),"[Case Session] Step 6 & 7 Case Discussion (High School)
+
+In this case we explored instructional strategies that address the case study school's problem of practice and saw what an action plan and a plan to assess progress can look like.  Then we saw some evidence of the impact on teaching and learning at Kingsway High School. - Importance of Topic","[Case Session] Step 6 & 7 Case Discussion (High School)
+
+In this case we explored instructional strategies that address the case study school's problem of practice and saw what an action plan and a plan to assess progress can look like.  Then we saw some evidence of the impact on teaching and learning at Kingsway High School. - Quality of Instruction",What worked well about this Case Discussion? (High School),What would you have liked to change about this Case Discussion? (High School),[Team Session] Identifying Insights and Challenges (Working with your school or system team) - Importance of Topic,[Team Session] Identifying Insights and Challenges (Working with your school or system team) - Quality of Instruction,What worked well about this session?,What would you have liked to change about this session?,"Please indicate the extent to which you agree with this statement:
+Today's sessions helped me articulate how and why equity is central to the work of school improvement.","Please indicate the extent to which you agree with this statement:
+
+Today's sessions helped me reflect on how Data Wise tools could be used in service of equity."
+"{""ImportId"":""startDate"",""timeZone"":""America/New_York""}","{""ImportId"":""endDate"",""timeZone"":""America/New_York""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/New_York""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID21""}","{""ImportId"":""QID22""}","{""ImportId"":""QID56""}","{""ImportId"":""QID58_1""}","{""ImportId"":""QID57_TEXT""}","{""ImportId"":""QID59_TEXT""}","{""ImportId"":""QID33_1""}","{""ImportId"":""QID33_2""}","{""ImportId"":""QID34_TEXT""}","{""ImportId"":""QID3_TEXT""}","{""ImportId"":""QID63""}","{""ImportId"":""QID66_TEXT""}","{""ImportId"":""QID64_TEXT""}","{""ImportId"":""QID65""}","{""ImportId"":""QID4_TEXT""}","{""ImportId"":""QID67_TEXT""}","{""ImportId"":""QID28_1""}","{""ImportId"":""QID28_2""}","{""ImportId"":""QID11_TEXT""}","{""ImportId"":""QID15_TEXT""}","{""ImportId"":""QID54""}","{""ImportId"":""QID25_1""}","{""ImportId"":""QID25_2""}","{""ImportId"":""QID12_TEXT""}","{""ImportId"":""QID16_TEXT""}","{""ImportId"":""QID30_1""}","{""ImportId"":""QID30_2""}","{""ImportId"":""QID31_TEXT""}","{""ImportId"":""QID40_TEXT""}","{""ImportId"":""QID42""}","{""ImportId"":""QID43_1""}","{""ImportId"":""QID43_2""}","{""ImportId"":""QID44_TEXT""}","{""ImportId"":""QID45_TEXT""}","{""ImportId"":""QID46_1""}","{""ImportId"":""QID46_2""}","{""ImportId"":""QID47_TEXT""}","{""ImportId"":""QID48_TEXT""}","{""ImportId"":""QID29_1""}","{""ImportId"":""QID29_2""}","{""ImportId"":""QID13_TEXT""}","{""ImportId"":""QID17_TEXT""}","{""ImportId"":""QID55""}","{""ImportId"":""QID61""}"
+6/21/18 15:02,6/21/18 15:13,IP Address,67.134.206.34,100,630,TRUE,6/21/18 15:13,R_6xMXBmxoIzw6dnH,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",Vivid images is a great game to play to see if people can give or receive good information.,Nothing,,,,Strongly agree,Reviewing of the norms and what we planned to accomplish today.,Nothing.,"Completely
+Satisfied","Completely
+Satisfied",Dr. City is a rockstar! She was a refreshing breath of fresh air to our proceedings.,Nothing.,High School Case,,,,,"Completely
+Satisfied",Neutral,"Good usage of the videos and other graphs to make the point about generating an action plan. Fan of the times when students have been able to articulate their struggles.
+Teachers were very candid about the needs there.","Get groups up and moving after lunch. 
+possibly a gallery walk
+Make more of a clear line into the affect of this work on student data.",High School Case,,,,,"Completely
+Satisfied",Neutral,,,"Completely
+Satisfied","Moderately
+Satisfied",,,Somewhat agree,Somewhat agree
+6/21/18 15:15,6/21/18 15:18,IP Address,67.134.206.45,100,147,TRUE,6/21/18 15:18,R_bmFK5p9k14NZ3qx,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 15:48,6/21/18 16:05,IP Address,67.134.206.38,100,994,TRUE,6/21/18 16:05,R_3e4Dc85znQr0MRs,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,Neutral,N/A,N/A,"Completely
+Satisfied","Completely
+Satisfied",The Vivid Images protocol was very useful as a tool to be implemented during our own DWIP.,NA,,,,Strongly agree,The teaching fellow was very open to both positive and negative comments and made adjustments to his approach which proved amazingly helpful.,NA,"Completely
+Satisfied","Completely
+Satisfied","Oh my God I totally loved the rock, paper, scissors activity and plan to use it with my students next year.",NA,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",The affinity protocol helped us to clearly identify the problem of practice.,NA,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",The layout of the action plan which included the LCP and the Problem of Practice really shed light on part of the problems we faced and ways to overcome those problems.,NA,"Completely
+Satisfied","Completely
+Satisfied",Our collaboration grew as a school team and we became more united in our approach or thinking.,NA,Strongly agree,Strongly agree
+6/21/18 16:14,6/21/18 16:17,IP Address,67.134.206.44,100,183,TRUE,6/21/18 16:17,R_3LXxenWJNdzc7UY,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 16:10,6/21/18 16:19,IP Address,67.134.206.45,100,540,TRUE,6/21/18 16:19,R_33iZHwADYn8oHkB,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",Love the continuous review,,,,,Somewhat agree,I confess at first it was a little awkward but turned out to be helpful for the day.,"When you have a strong blue group, staying with them for the week is great. When you do not, it is a little exhausting. Is there any way to mix up blue groups?","Completely
+Satisfied","Completely
+Satisfied","Great - clear, enagaging",,Elementary Case,"Completely
+Satisfied","Moderately
+Satisfied",Clearer than Wednesday,,,,,,Elementary Case,"Completely
+Satisfied","Moderately
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",We could not have the level of understanding without the help of out teaching fellow. I feel blessed to have had Monique to guide us.,Wished it had transpired a little earlier in the day for additional time to talk through and finalize presentation,Strongly agree,Strongly agree
+6/21/18 16:17,6/21/18 16:23,IP Address,67.134.206.44,100,343,TRUE,6/21/18 16:23,R_3kcZTAHCcKYRJA3,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,"My teaching fellow did a great job, but I feel like after we gave him feedback today, he began to contribute even more.",,"Completely
+Satisfied","Completely
+Satisfied",I loved how this session brought instruction into the picture.,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",I liked working with the team to discuss and come to consensus on the instructional matrix.,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",I really liked hearing the teachers from the case study reflect on the year.,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 16:00,6/21/18 16:24,IP Address,67.134.206.36,100,1431,TRUE,6/21/18 16:24,R_1OxJ8UE17AEwJPT,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,Strongly agree,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,Somewhat disagree,Strongly agree
+6/21/18 16:31,6/21/18 16:32,IP Address,67.134.206.40,100,96,TRUE,6/21/18 16:32,R_pSK2hDkc95yk7h7,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 16:34,6/21/18 16:36,IP Address,67.134.206.47,100,78,TRUE,6/21/18 16:36,R_ToAOAyIOuHsIzm1,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 16:35,6/21/18 16:36,IP Address,67.134.206.45,100,89,TRUE,6/21/18 16:36,R_2rrcH57C3S6qm9c,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 16:34,6/21/18 16:41,IP Address,67.134.206.36,100,388,TRUE,6/21/18 16:41,R_V3GNMW6BKH0HiQV,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied",,,,,,,Strongly agree,,,"Completely
+Satisfied",,,,Elementary Case,"Completely
+Satisfied",,,,,,,,Elementary Case,"Completely
+Satisfied",,,,,,,,"Completely
+Satisfied",,,,Strongly agree,Strongly agree
+6/21/18 10:48,6/21/18 16:42,IP Address,67.134.206.43,100,21213,TRUE,6/21/18 16:42,R_3DwOhh4TB4y3l16,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",It was helpful to give critical thought to the efforts of other team members.,nothing,,,,Somewhat agree,check sheet format was useful,,"Completely
+Satisfied","Completely
+Satisfied",I enjoyed the tournament. I would like to experiment with it in my classroom.,More time for the presenter. She was engaging and enjoyable.,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",Protocol will be useful to facilitate difficult conversations. Thank you.,More time,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",videos and clarification,time,"Completely
+Satisfied","Completely
+Satisfied",We were all excited about being here; ready to get home and get after it; felt better after discussing the protocol for tomorrow,"Once again, more time.",Strongly agree,Strongly agree
+6/21/18 16:35,6/21/18 16:45,IP Address,67.134.206.37,100,608,TRUE,6/21/18 16:45,R_31SoMy3T4X7FVeT,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied","I enjoyed the vivid images protocol and I am eager to not only use this with the teaching staff, but also use it to increase speaking and listening skills in my students.",,,,,Strongly agree,"I appreciated how open, honest, and immediate this feedback was. It was clear that our TF immediately embraced what we said and changed her instruction.",Possibly try doing this earlier in the week.,"Completely
+Satisfied","Completely
+Satisfied",WOW! I LOVED IT! Liz was high energy and super engaging and got us hyped up to listen to protocols when we were all feeling low energy. The matrix is such an easy tool to take right back to every teacher in the building and apply to examining instruction right away.,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied","It was open and honest discussion and allowed us to objectively observe teaching and determine a more accurate realization of what we needed to work on as the ""fifth grade teachers"".",,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",Seeing the openness and honesty of the fifth grade team at Northaven was good to see that the process gets messy and they were able to own it and move forward.,Post lunch needed more movement. It was hard to stay tuned in.,,,,,"Completely
+Satisfied","Completely
+Satisfied",Having the opportunity to talk it through with our TF Stefanie.,,Strongly agree,Strongly agree
+6/21/18 12:09,6/21/18 16:47,IP Address,67.134.206.40,100,16625,TRUE,6/21/18 16:47,R_2cd3oDQUbmk2SVa,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,"Completely
+Satisfied",,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",I loved the interactions that were provided.,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",The interactions between my group was aswesome. It took us a while to come up with the problem of practice however we wrorked together and came up one that was GOOD!!,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",Our table mentor gave suggections on how to work through some of the challenges that we are going to face.,I was too much information after lunch.,,,,,"Completely
+Satisfied","Completely
+Satisfied",We wroked very well together this afternoon.,NA,Strongly agree,Strongly agree
+6/21/18 13:51,6/21/18 16:47,IP Address,67.134.206.36,100,10583,TRUE,6/21/18 16:47,R_1M6T8zr4DS5tFiK,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Somewhat agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,High School Case,,,,,"Completely
+Satisfied","Moderately
+Satisfied",,,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,"Moderately
+Satisfied","Completely
+Satisfied",,,Somewhat agree,Strongly agree
+6/21/18 16:43,6/21/18 16:48,IP Address,67.134.206.41,100,338,TRUE,6/21/18 16:48,R_2tmvvz4I77MCLdc,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,"Moderately
+Satisfied",,,"Moderately
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Moderately
+Satisfied","Completely
+Satisfied",,,,,,,Elementary Case,"Moderately
+Satisfied","Completely
+Satisfied",,,,,,,"Moderately
+Satisfied","Completely
+Satisfied",,,Somewhat agree,Somewhat agree
+6/21/18 16:46,6/21/18 16:49,IP Address,67.134.206.43,100,144,TRUE,6/21/18 16:49,R_2EzMjl1blNRJaNw,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,,,,,"Completely
+Satisfied","Completely
+Satisfied",Video evidence,Work with team to see perspectives,,,,Somewhat agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",Video evidence,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",Video,nothing,,,,,"Completely
+Satisfied","Completely
+Satisfied",'-p,-,Strongly agree,Strongly agree
+6/21/18 16:43,6/21/18 16:49,IP Address,67.134.206.33,100,363,TRUE,6/21/18 16:49,R_Zk1VgPgoyoVc1I5,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",It was nice to validate Todd because he has been doing a great job.,Nothing!,,,,Somewhat agree,Everyone was able to provide feedback.,Make it anonymous.,"Completely
+Satisfied","Completely
+Satisfied","The Rock Paper Scissors activity was a great way to get energized. We will be bringing it back to our school! The Matrix was very helpful as well as pointing out that the administrator needs to focus on task, not evaluating the teacher.",Nothing!,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",It was great to see another school's process as an example.,Nothing!,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",It was great to get up and move around after lunch!,Nothing!,,,,,"Completely
+Satisfied","Completely
+Satisfied",We came up with great ideas as a team. Rafael did a wonderful activity to help us decompress and get re-energized! As well as connect that activity to the work we are doing.,Nothing at all!,Strongly agree,Strongly agree
+6/21/18 16:46,6/21/18 16:49,IP Address,67.134.206.37,100,166,TRUE,6/21/18 16:49,R_3O9sazskcDajv0Q,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,,Getting a chance to hear and see the video of the teachers from Northhaven,Nothing at this time,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 13:45,6/21/18 16:50,IP Address,67.134.206.34,100,11099,TRUE,6/21/18 16:50,R_3nJaupxnTriV0Uo,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",vivid image great way to show us how to focus on evidence when looking at data,NA,,,,Somewhat agree,"Didn't have any deltas for our teaching fellow, she has done well with our group it made it difficult to share with the group",NA,"Completely
+Satisfied","Completely
+Satisfied","loved the activity rock, paper, scissors and how we can relate them to processes of observing practices",NA,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",determining the difference in the learner problem and problem of practice,NA,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",table mentor shared experiences and responding to all of our questions about data wise,NA,,,,,"Completely
+Satisfied","Completely
+Satisfied",Sticking to the protocol,NA,Strongly agree,Strongly agree
+6/21/18 16:40,6/21/18 16:51,IP Address,67.134.206.47,100,621,TRUE,6/21/18 16:51,R_3ivP8ECt73Wzanh,,,,,42.38000488,-71.13289642,anonymous,EN,Teaching Fellow,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",I appreciated the opportunity to get feedback about my facilitation so that I could adjust any actions today. I wonder if it would be possible in future to get daily feedback so that needs could be met and adjustments made more quickly.,,Strongly agree,Specific feedback to inform my practice.,I would have liked to have gotten daily feedback in regard to at least one aspect of facilitating/coaching each day.,,,,"Completely
+Satisfied","Completely
+Satisfied",The tournament was a great activity to create a positive and celebratory energy in the room. What a great activity to start the day of learning. the Matrix activities really brought clarity to the type of observation notes that are most helpful in identifying a problem of practice.,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied","Everyone loved (including me) the detailed story of the school journey. The messy parts were especially helpful, as we all learn from productive struggle.",,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",The clear steps and time to discuss each one of the actions with the group.,,,,,,"Completely
+Satisfied","Completely
+Satisfied",It was great to see the launch presentation and school coherence story come to life! Everyone is ready and excited for the consultancy process on Friday!,,Strongly agree,Strongly agree
+6/21/18 16:41,6/21/18 16:51,IP Address,67.134.206.45,100,597,TRUE,6/21/18 16:51,R_31GXTu2x2OWEM3S,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied","Completely
+Satisfied",I think the information was relevant but not sure it was necessary to repeat.,Maybe address the individual issues but not as a whole.,,,,Strongly agree,Adriana is wonderful to work with and I appreciate all of her wonderful feedback.,N/A,"Completely
+Satisfied","Completely
+Satisfied",Wonderful activity and anxious to bring it back to our school.,N/A,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",It was nice to actual try the process.,The acoustic weren't great but I know this issue is being fixed.,,,,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",I did not feel satisfied with the results of the case. I would have liked to have seen more positive results.,I would have preferred to hear more about Leasure rather hearing a new case.,,,,,"Completely
+Satisfied","Completely
+Satisfied",Our TF was a wonderful. He always brought fun to a sometimes stale topic.,I would like to have a smaller space for our group.,Strongly agree,Strongly agree
+6/21/18 9:41,6/21/18 16:51,IP Address,67.134.206.43,100,25839,TRUE,6/21/18 16:51,R_3rG2AHx1mi8lcjr,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",The was an excellent activity both as the presenter and the listener. you have the be able to tap into your descriptive ability and be very clear and precise on how you try to present what you looking at so the other person can follow and able to apply what they are hearing. This activity is great for student who are auditory learners. It also taps into the visual learners because you have to draw what you are hearing.,Wish the cards gave an example of what the picture represent.,,,,,Today sessions from the start of the day to the end of the day was very valuable and placed on the correct day. Only wish we had more sessions where we meet as a team with our assigned Teacher Fellow to brainstorm and complete,,"Completely
+Satisfied","Completely
+Satisfied",It was an eye opener on how simple it is to use an active as rock-paper-scissor to push the agenda of how much we are focusing and truly paying attention to details. It also shows that you confidence builds when you have a cheer team and individual supporting you are you grow professional,Need just a little more time to discuss the video with table mate and also unpacking to poll response,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",The video allow you to see a short clip of what the teacher and student engaged in and areas that needs improvement to meet the problem of practice. Also the lesson plan overview also assist in see the teacher end game and what she wants the student to learn and get from the lesson.,A longer video clip,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",The case discussion and sample Action plan template was very beneficial and I will be able to implement areas from their action plan to improve our school action plan process,Nothing,"Completely
+Satisfied","Completely
+Satisfied",Ability to have constructive debates and unpacking each point in depth.,Nothing,Strongly agree,Strongly agree
+6/21/18 16:51,6/21/18 16:52,IP Address,65.112.10.130,100,71,TRUE,6/21/18 16:52,R_BVAH3Q6vymn8K0V,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 16:52,6/21/18 16:55,IP Address,67.134.206.40,100,164,TRUE,6/21/18 16:55,R_zYX5Bltnii6aV2N,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,"Completely
+Satisfied",,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,"Members not taking a ""be here now"" stance nor a ""hear all voices.""",,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,"Members not taking a ""be here now"" stance nor a ""hear all voices.""",,,,,"Completely
+Satisfied","Completely
+Satisfied",,"Members not taking a ""be here now"" stance nor a ""hear all voices.""",Strongly agree,Strongly agree
+6/21/18 16:49,6/21/18 16:55,IP Address,67.134.206.42,100,355,TRUE,6/21/18 16:55,R_3iJqVWvQS4CH5C4,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",Information given about upcoming events.,,,,,Strongly agree,It helped me tell him how great he was and has gave me an insight how a lot this week.,,"Completely
+Satisfied","Completely
+Satisfied",It got everyone ready for the session.,Nothing! Liz is great!,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",It got me thinking and understanding about the problem and the problem of my own school.,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",Seeing the process.,,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",We were able to create our challenge.,,Strongly agree,Strongly agree
+6/21/18 11:08,6/21/18 16:55,IP Address,67.134.206.35,100,20806,TRUE,6/21/18 16:55,R_3hz2INcdOeKYepE,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,System Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,Sharing our feelings directly with them is better than leaving and talking about it!,,"Completely
+Satisfied","Completely
+Satisfied",I loved this session...my favorite yet! She was energizing and engaging.,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied","Great collaborative discussions around the case.
+Going through the processes to actually develop a Problem of Practice and Learner Centered Question.",,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied","Getting to hear from the teachers who actually went through the process.
+Conversations with our Teaching Fellow were great. He asked thought provoking questions and kept us engaged.",,,,,,"Completely
+Satisfied","Completely
+Satisfied",,We just need more time with our Teaching Fellow as a team.,Somewhat agree,Somewhat agree
+6/21/18 16:53,6/21/18 16:56,IP Address,67.134.206.36,100,139,TRUE,6/21/18 16:56,R_1NsTb4lYbbsIFLa,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,Neutral,Neutral,,,,,,,Elementary Case,"Moderately
+Dissatisfied","Moderately
+Dissatisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Somewhat agree,Strongly agree
+6/21/18 13:48,6/21/18 16:56,IP Address,67.134.206.35,100,11305,TRUE,6/21/18 16:56,R_33jthKI6wIiqnZM,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,"Nothing, this was great.",Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 16:54,6/21/18 16:56,IP Address,67.134.206.39,100,135,TRUE,6/21/18 16:56,R_1hAaT6SeQtQF9H2,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,System Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Somewhat agree,Somewhat agree
+6/21/18 16:53,6/21/18 16:56,IP Address,65.112.10.130,100,191,TRUE,6/21/18 16:56,R_1H6ufCxfVsDptLi,,,,,42.38000488,-71.13289642,anonymous,EN,Teaching Fellow,School Team,No,,,,"Moderately
+Satisfied","Completely
+Satisfied",,,Somewhat agree,,,,,,"Moderately
+Satisfied","Completely
+Satisfied",,,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,"Moderately
+Satisfied","Moderately
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 16:54,6/21/18 16:57,IP Address,67.134.206.43,100,132,TRUE,6/21/18 16:57,R_BRfAtsudDNc0YeJ,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,System Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,"Moderately
+Satisfied","Moderately
+Satisfied",,,Neutral,Neutral
+6/21/18 16:53,6/21/18 16:57,IP Address,67.134.206.34,100,193,TRUE,6/21/18 16:57,R_1doFiJgWKjBcQ8o,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,System Team,Yes,"Moderately
+Satisfied",,,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,Somewhat agree,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,High School Case,,,,,"Completely
+Satisfied","Moderately
+Satisfied",,,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,"Completely
+Satisfied","Completely
+Satisfied",,,Neutral,Somewhat agree
+6/21/18 16:50,6/21/18 16:57,IP Address,67.134.206.33,100,429,TRUE,6/21/18 16:57,R_3lKV8nxJwhpJHR8,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,"Completely
+Satisfied",,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied","Getting a brain break with rock, paper, scissors.",,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",Actually doing the steps.,It was difficult to focus at the end because we were sitting for a while after lunch.,,,,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",Working on and learning to organize feedback from observations. It needs to be non judgmental and specific.,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Somewhat agree,Somewhat agree
+6/21/18 16:54,6/21/18 16:58,IP Address,67.134.206.44,100,215,TRUE,6/21/18 16:58,R_1eDz3YIFeIfXHie,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,"Moderately
+Satisfied",Collaboration,Nothing,"Moderately
+Satisfied","Moderately
+Satisfied",Collaboration,Nothing,,,,Somewhat agree,Problem-solving,Nothing,"Moderately
+Satisfied","Moderately
+Satisfied",The activities,Nothing,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",The interviews from the school teams,nothing,,,,,Elementary Case,"Moderately
+Satisfied",,Fast pace,nothing,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",where to start!,nothing,Somewhat agree,Somewhat agree
+6/21/18 16:53,6/21/18 16:58,IP Address,67.134.206.43,100,273,TRUE,6/21/18 16:58,R_2ysFlMU7orjRgOu,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,Somewhat agree,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,,,
+6/21/18 16:56,6/21/18 16:59,IP Address,67.134.206.38,100,137,TRUE,6/21/18 16:59,R_332NGrnqDl1Ro0h,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,Neutral,,,Neutral,Neutral,,,,,,Somewhat agree,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,"Moderately
+Dissatisfied","Moderately
+Dissatisfied",,,Strongly disagree,Strongly disagree
+6/20/18 16:50,6/21/18 16:59,IP Address,67.134.206.36,100,86907,TRUE,6/21/18 16:59,R_3frEYD10OVeVi5b,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,,,,"Completely
+Satisfied","Completely
+Satisfied",Very engaging and informative,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied","The protocol was great- I will take it back to my school. It definitely helped me see how to make this a collaborative process when I know, with my turnaround school, that I do get to the point where I want to just make decisions and move on them.",,,,,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied","I really liked the last video, hearing how the teachers felt at the end of the year- after their battle.","This was a little long. Because it was mostly just advice, I think it would have been more helpful to have longer Q and A sections with the TFs to really be able to jump into conversations and hear about how the next steps could go.",,,,,"Completely
+Satisfied","Moderately
+Satisfied",Coming up with the challenge!!,"I would have liked more time allotted to coming up with a challenge that we wanted advice about. I felt like the conversation had to rush a little, when it was actually a productive conversation.",Somewhat disagree,
+6/21/18 16:56,6/21/18 17:00,IP Address,67.134.206.41,100,198,TRUE,6/21/18 17:00,R_sMrQsSeiNRWWHOF,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,System Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,Open feedback was nice,,"Completely
+Satisfied","Completely
+Satisfied",Inspiring,,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,"Completely
+Satisfied","Completely
+Satisfied",Excellent discussions,,Neutral,Neutral
+6/21/18 16:46,6/21/18 17:00,IP Address,67.134.206.39,100,835,TRUE,6/21/18 17:00,R_3lMONuzUrcGvJUR,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",Loved the practicality of the picture exercise.,Nothing.,,,,Strongly agree,This is an important step to improve practice.,Nothing,"Completely
+Satisfied","Completely
+Satisfied",Dr. City is a relatable presenter.,More Dr. City time please.,High School Case,,,,,"Completely
+Satisfied","Moderately
+Satisfied",Formulating the problem of practice.,Doing it with our green team.,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",Seeing how it played out in the school.,A little too much time on this session.,"Completely
+Satisfied","Completely
+Satisfied",Open honest collaboration time.,More time to complete task.,Somewhat agree,Strongly agree
+6/21/18 16:54,6/21/18 17:00,IP Address,67.134.206.46,100,396,TRUE,6/21/18 17:00,R_6V8Ip3pTYC8s2kx,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied","Great energizing beginning!
+This was the session I found most interesting and useful all week-- and everything was useful!
+",,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied","Hearing Keri's extra insight about the school.
+Getting to thank the teachers for their openness of practice.",,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",Very productive session with my school team. Identifying the challenge for our Problem/ Dilemma presentation helped us think critically about what is the biggest challenge facing our school as we roll out DataWise in the Fall.,"The group that was in my room (Longfellow 320) just before this session began left it a mess-- garbage on the tables, supplies scattered on the floor.",Neutral,Neutral
+6/21/18 16:51,6/21/18 17:00,IP Address,67.134.206.44,100,559,TRUE,6/21/18 17:00,R_3s7fNHQVBWO8CGD,,,,,42.38000488,-71.13289642,anonymous,EN,Teaching Fellow,School Team,No,,,,"Moderately
+Satisfied","Completely
+Satisfied",Great tickler activity to jump into Liz' presentation.,,Somewhat agree,Got concrete feedback.,Maybe a quick prompt for me somewhere in the process to make a commitment about one of the improvement things.,,,,"Completely
+Satisfied","Completely
+Satisfied",Interactive with the poll.,,Elementary Case,"Completely
+Satisfied","Moderately
+Satisfied",Affinity protocol,More explicit instruction about the different grade level PoPs.,,,,,Elementary Case,"Completely
+Satisfied","Moderately
+Satisfied",Opportunity to talk about the messiness.,Time limits for the table talk so we know how much time we have. Not just a raised hand. Maybe a timer in the front of the room?,,,,,Neutral,Neutral,Reflecting on the week as a whole.,Have the team do a little more work on planning the data overview.,Somewhat disagree,Somewhat disagree
+6/21/18 16:53,6/21/18 17:00,IP Address,67.134.206.35,100,438,TRUE,6/21/18 17:00,R_1jEe7cgPWkDBh45,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,Neutral,,,"Completely
+Satisfied","Completely
+Satisfied",,Have her teach all day!,High School Case,,,,,"Completely
+Dissatisfied","Completely
+Dissatisfied",,the case studies should be infused into the presentations by the harvard presenters.,High School Case,,,,,"Moderately
+Dissatisfied","Completely
+Dissatisfied",,"Harvard present, case study presenters jump in","Completely
+Satisfied","Completely
+Satisfied",,more green time this week.,Somewhat disagree,Neutral
+6/21/18 16:54,6/21/18 17:01,IP Address,67.134.206.39,100,380,TRUE,6/21/18 17:01,R_AGaqBQZbULIgVaN,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,System Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied","Seeing the case from the beginning, the videos, the teacher reflection, and the documents provided a big picture of the data wise process.",,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 16:47,6/21/18 17:01,IP Address,65.112.10.131,100,857,TRUE,6/21/18 17:01,R_1ClNv9YMlr2FK0C,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",Working in partnerships to draw and describe vivid images was both fun and productive to express differences in the same idea.,,,,,Strongly agree,My group all had a similar item to discuss with our teaching fellow so it was nice to see that we agreed.,,"Completely
+Satisfied","Completely
+Satisfied",She is fantastic! I can't put the rest into words.,N/A,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied","Being able to see step 5 in action was helpful to me as an educator, as I could bring back my gained knowledge to my green group.",More time on writing tasks.,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",My group was able to identify a challenge that we had not previously thought of.,,Strongly agree,Strongly agree
+6/21/18 16:54,6/21/18 17:01,IP Address,67.134.206.33,100,390,TRUE,6/21/18 17:01,R_3DcFfINyYl2Mo7F,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",The matrix brings clarity to observing practice.,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,"Rob and Penny don't always seem like they are on the same page (i.e., who is presenting the slide).",,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 16:58,6/21/18 17:01,IP Address,67.134.206.39,100,153,TRUE,6/21/18 17:01,R_1H8nlyRb7btCHTw,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,I would like the opportunity to work with our green team TF during the blue team time. Dia is fantastic!,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",Our blue team discussions worked well,Rob and Penny did not always seem to be on the same page.,,,,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",,The presenters did not always seem to be on the same page.,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 16:57,6/21/18 17:01,IP Address,67.134.206.40,100,215,TRUE,6/21/18 17:01,R_129hbcLH0vYrqKm,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,,Elementary Case,"Moderately
+Satisfied","Completely
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 16:52,6/21/18 17:02,IP Address,67.134.206.39,100,561,TRUE,6/21/18 17:02,R_2TFAHquburzV4eO,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,Neutral,,,"Completely
+Satisfied","Completely
+Satisfied",Enjoyed the vivid images activity. It was fun and helped me work at articulating what I thought was important.,Nothing,,,,Neutral,I was happy with the performance of my Teaching Fellow. Providing feedback is always helpful though.,No,"Completely
+Satisfied","Completely
+Satisfied","Loved Rock/Paper/Scissors!! It got everyone moving, and built a communal spirit.",No,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",Working through the process,No,,,,,,,,,,,,,,"Completely
+Satisfied","Completely
+Satisfied","Planning out our presentation, finishing data review and next steps",No,Strongly agree,Strongly agree
+6/21/18 16:54,6/21/18 17:02,IP Address,65.112.8.141,100,463,TRUE,6/21/18 17:02,R_1M68yxybeHdmBkv,,,,,42.38000488,-71.13289642,anonymous,EN,Teaching Fellow,System Team,No,,,,"Completely
+Satisfied","Moderately
+Satisfied",,Connecting the Vivid Images to the bigger picture.,Somewhat disagree,I liked the positive feedback.,It wasn't very constructive. They were too nice.,,,,"Completely
+Satisfied","Completely
+Satisfied",The focus on task.,Nothing. Great!,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",The affinity mapping.,Nothing,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",Seeing teachers in action.,Nothing.,"Completely
+Satisfied","Completely
+Satisfied",Agenda,More time.,Strongly agree,Strongly agree
+6/21/18 16:52,6/21/18 17:02,IP Address,67.134.206.34,100,640,TRUE,6/21/18 17:02,R_2SjJlSjBNLeEPnz,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",Vivid images will be a nice Week 1 activity for my students.,Play as a class first and then individuals teams.,,,,Strongly agree,We had an awesome teaching fellow. I am thankful that she was with us.,Nothing.,"Completely
+Satisfied","Completely
+Satisfied",Everything. Please allow Dr. City to work with this institute more often.,Nothing.,High School Case,,,,,"Moderately
+Satisfied","Completely
+Satisfied",Good to work with data that represented real student work,Less time on this one. Possibly better sets of data.,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",Action plan was tied to the learner-centered problem that was connected to the problem of practice,Much shorter amount of time spent on this.,"Completely
+Satisfied","Completely
+Satisfied",Great camaraderie from our team.,Nothing.,Strongly agree,Strongly agree
+6/21/18 16:57,6/21/18 17:02,IP Address,67.134.206.33,100,329,TRUE,6/21/18 17:02,R_1LZ6uQfPJYRiss3,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,"Moderately
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 16:57,6/21/18 17:02,IP Address,67.134.206.34,100,317,TRUE,6/21/18 17:02,R_3P7EL8TbzP9lobL,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,Neutral,Neutral,Creative,"Wasn't directly related to the session
+",,,,Strongly agree,TF can take this info as constructive criticism,TF provide more about himself,"Completely
+Satisfied","Completely
+Satisfied",Fun and interactive,n/a,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",n/a,n/a,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",n/a,n/a,,,,,"Completely
+Satisfied","Completely
+Satisfied",n/a,n/a,Somewhat agree,Somewhat agree
+6/21/18 16:43,6/21/18 17:04,IP Address,67.134.206.43,100,1207,TRUE,6/21/18 17:04,R_1r9vuqbYOegAAGF,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,System Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",The protocol Vivid Images was fun,none,,,,Strongly agree,Doing so we were practicing what we have been learning.,none,"Completely
+Satisfied","Completely
+Satisfied",What an energetic quick activity.,none,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 16:42,6/21/18 17:04,IP Address,67.134.206.44,100,1313,TRUE,6/21/18 17:04,R_3KBjerm6EqplLxr,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,Somewhat agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",Rafael was very helpful. He always offered thoughtful suggestions and asked us important questions.,,Strongly agree,Strongly agree
+6/21/18 17:03,6/21/18 17:05,IP Address,65.112.10.132,100,93,TRUE,6/21/18 17:05,R_UT3REzFC3jrGn9n,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Completely
+Dissatisfied","Completely
+Dissatisfied",,,,,,,Elementary Case,"Completely
+Dissatisfied","Completely
+Dissatisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",David is the man!!,,Strongly agree,Strongly agree
+6/21/18 17:03,6/21/18 17:05,IP Address,67.134.206.33,100,117,TRUE,6/21/18 17:05,R_2DZTw9rtSxC54I0,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 16:52,6/21/18 17:05,IP Address,67.134.206.46,100,792,TRUE,6/21/18 17:05,R_2Bzfe41uul3IXd5,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied","Enjoyed the activity of describing what see,",Nothing in particular,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied","Highly engaging and what she kept us focused on the heavy and important work, she kept modeling and emphasizing to keep it light and humorous.",,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",applying the principles of collecting data while examining instruction.,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",the activity to examine the data and sorting it to determine a problem of practice. This was challenging for me but I appreciate the process and can now apply it and share it with the staff.,,,,,,"Completely
+Satisfied","Completely
+Satisfied",Good to hear that others have similar ones and learned from those who have different ones.,,Strongly agree,Strongly agree
+6/21/18 16:56,6/21/18 17:05,IP Address,67.134.206.33,100,593,TRUE,6/21/18 17:05,R_3kpFW5hwV0pMVAl,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,Neutral,3 days with same group has been helpful,more time,Neutral,Neutral,Collaboration with others,More clarification.,,,,Neutral,,,"Moderately
+Satisfied","Moderately
+Satisfied",Getting active,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",Working with the same group,Some more activity.,,,,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,Somewhat agree,Somewhat agree
+6/21/18 17:03,6/21/18 17:06,IP Address,67.134.206.38,100,137,TRUE,6/21/18 17:06,R_9AWaHBcML4WFb2x,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,Strongly agree,It was helpful,More opportunities for Green Team Facilitator,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",Teaching Fellow was extremely helpful with guiding questions.,,Somewhat agree,Somewhat agree
+6/21/18 17:00,6/21/18 17:06,IP Address,67.134.206.46,100,360,TRUE,6/21/18 17:06,R_3DvZSPlyk4HAPxD,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,"Brian was extremely helpful, supportive and great to work with!",,"Completely
+Satisfied","Completely
+Satisfied",Liz is an extremely engaging presenter and this presentation really led me to think,,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",The push around collaboration and examples about how to modify in a departmentalized school,I would have liked to hear more clarity on how to facilitate teachers through identifying an instructional strategy,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,"Completely
+Satisfied","Completely
+Satisfied",,,Somewhat agree,Somewhat agree
+6/21/18 16:42,6/21/18 17:06,IP Address,67.134.206.45,100,1434,TRUE,6/21/18 17:06,R_cGtcysCOQ3hISxX,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",We liked having the chance to have open ended conversation and be able to ask any questions without it being specific.,,,,,Strongly agree,Todd was always very helpful and guided our group effectively and with meaning.,"It was awkward sitting in front of the teaching fellow to fill out the feedback chart, and it was not anonymous.","Completely
+Satisfied","Completely
+Satisfied","Liz City is an amazing presenter who was able to connect well with our audience. She had great energy, and is very knowledgeable.",,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",I liked being able to apply the protocol to practice.,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied","I liked being able to see the example case and discuss with our case study group. It was helpful to see their ending reflection video, it gave me uplifting hope.",,,,,,"Completely
+Satisfied","Completely
+Satisfied",We were able to plan for what we think will be our biggest challenge in a productive way.,More green time!,Somewhat agree,Somewhat agree
+6/21/18 16:56,6/21/18 17:06,IP Address,67.134.206.43,100,595,TRUE,6/21/18 17:06,R_21tXJdRe8pVRfpo,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,"Completely
+Satisfied",,,,,,,,,,,,,,,,,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",collaboration with others,nothing,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",identifying what how to analyze teacher instruction.,nothing,"Completely
+Satisfied","Completely
+Satisfied",How to correctly identify poor teacher instruction,nothing,Strongly agree,Strongly agree
+6/21/18 16:53,6/21/18 17:06,IP Address,67.134.206.44,100,804,TRUE,6/21/18 17:06,R_3MJsBSL5oAFeIwT,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",Vivid Images was very helpful to explore how descriptive language is important.,,,,,Somewhat agree,"It was a little bit awkward to provide feedback in this format, however I could really tell that our TF took the feedback to heart and made immediate adjustments.",Anonymity,"Completely
+Satisfied","Completely
+Satisfied",Elizabeth was a super engaging speaker. I learned so much for her and her positive energy kept me engaged.,"I was getting so much out of her presentation, I would have liked to have more time and practice from Liz's insights instead of the case study.",High School Case,,,,,"Moderately
+Satisfied","Moderately
+Dissatisfied",The Action Plan and Throughline resources were extremely helpful.,I would have liked more real practice with watching the instructional videos so I can learn how to better peer evaluations of other teachers. There was way too much background information shared and instructor interruptions of each other. The explanations could have been abbreviated to save time and maintain the focus of participants.,High School Case,,,,,,,,See previous feedback.,"Completely
+Satisfied","Completely
+Satisfied",We followed our norms and had a very effective meeting.,,Somewhat agree,Somewhat agree
+6/21/18 17:03,6/21/18 17:06,IP Address,67.134.206.35,100,210,TRUE,6/21/18 17:06,R_DBv0lqm6Bj1nQm5,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",I really appreciated the additional processing time that was provided from case leaders. Thank you!,Nothing... it was perfect!,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",I LOVED this session!,Nothing,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 17:01,6/21/18 17:07,IP Address,67.134.206.38,100,357,TRUE,6/21/18 17:07,R_1LIOrgLLHtOwtZM,,,,,42.38000488,-71.13289642,anonymous,EN,Teaching Fellow,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Hear what the team would like more of.,Possibly do this earlier in the week?,,,,"Completely
+Satisfied","Completely
+Satisfied","Great info! ROCK, PAPER, and Scissors!",,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",Examples and the participants to see the messiness.,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",Great info - allowed to see another school's practice.,,,,,,"Completely
+Satisfied","Completely
+Satisfied",Great team!,Could always use more time!,Somewhat agree,Somewhat agree
+6/21/18 17:00,6/21/18 17:07,IP Address,67.134.206.34,100,385,TRUE,6/21/18 17:07,R_shfbyh4N4YbdDz3,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,"Completely
+Satisfied",,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",This session was very informative especially looking at how our US students are comparing amongst other countries.,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",The practice of the learning centered problem was spot on.,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 17:01,6/21/18 17:07,IP Address,67.134.206.37,100,334,TRUE,6/21/18 17:07,R_2ZEbOLGpDQgByC8,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",I appreciate the fact that we did this.,I feel my group would have been more honest if they did not have to share right in that moment.,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",Loved the rock paper scissors tournament!!!!!,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",Appreciated the opportunity to practice this skill.,Team had a hard time focusing on the problem of practice. Kept going back to the learner centered problem even though that was established already.,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",sharing the insights,hard to come up with the language for the slide on a thursday afternoon.,Strongly agree,Strongly agree
+6/21/18 17:04,6/21/18 17:07,IP Address,65.112.8.131,100,164,TRUE,6/21/18 17:07,R_3hsb7zH3TCE8ETC,,,,,42.38000488,-71.13289642,anonymous,EN,Teaching Fellow,School Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",Great set up for the day.,The microphone issue,Strongly agree,Quick feedback on the spot,I wish there was a heads up that this was happening.,,,,"Completely
+Satisfied","Completely
+Satisfied",Interactive and responsive to the needs of the room,More Liz City time!,High School Case,,,,,"Moderately
+Satisfied",Neutral,Videos and mulitimedia,Ran out of time for discussion and questions.,High School Case,,,,,,,Videos and handouts,More time for questions from the teams.,"Moderately
+Satisfied","Moderately
+Satisfied",,,Neutral,Neutral
+6/21/18 16:57,6/21/18 17:08,IP Address,67.134.206.38,100,642,TRUE,6/21/18 17:08,R_3HwBl5gFIHOG3po,,,,,42.38000488,-71.13289642,anonymous,EN,Teaching Fellow,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",I appreciated the opportunity to gain more feedback on my role as an educational supporter.,,Somewhat agree,I appreciated the feedback.,I wonder if there might have been a greater connection had we been in our teams from Day One?,,,,"Completely
+Satisfied","Completely
+Satisfied",,,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",The teaching team modified their plan to provide processing time for participants to learn and experience the process. Kudos!,"I know that the goal is to focus on steps one - three; however, I wonder if more time could be dedicated to steps 4-8?",High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,"Completely
+Satisfied","Completely
+Satisfied",We brainstormed a list of challenges and voted to select the challenge for tomorrow.,,Strongly agree,Strongly agree
+6/21/18 16:54,6/21/18 17:09,IP Address,67.134.206.38,100,913,TRUE,6/21/18 17:09,R_2v6wRpV633MwcWY,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",Image activity,N/A,,,,Strongly agree,She rolled with the punches and was very receptive.,The feedback activity for the Teaching Fellows could have been framed differently. It was a little uncomfortable to provide feedback in that way.,"Completely
+Satisfied","Completely
+Satisfied",Very interactive,N/A,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",Seeing things in action,N/A,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",Seeing things in action,N/A,,,,,"Completely
+Satisfied","Completely
+Satisfied",Coming to a consensus,N/A,Strongly agree,Strongly agree
+6/21/18 16:56,6/21/18 17:10,IP Address,67.134.206.33,100,850,TRUE,6/21/18 17:10,R_1OULmrTMwkKtMhv,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,System Team,No,,,,Neutral,Neutral,"It seemed to hone my listening and descriptive skills. But, I missed the connection to the focus on evidence.","The directions were not clear as to the time frame and expectations within. Plus, it wasn't really enough time.",,,,Neutral,Feedback is important for everyone.,It was totally awkward doing the sharing face-to-face. I don't think there was enough trust built up to make it valuable and honest.,"Completely
+Satisfied","Completely
+Satisfied",The hands-on application was great!,"I'm still fuzzy as to how the Rock, Paper, Scissors piece tied to a relentless focus on evidence. It was great for engagement and fun and teambuilding, but evidence?????",Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",I loved the real-life application.,More samples (exemplars) provided.,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",Real-life scenarios and examples,Nothing!,,,,,"Moderately
+Satisfied",Neutral,We were able to work with our team to discuss some decisions we need to make.,"There really was no ""instruction"" so that question seems irrelevant. Our team just needed time built into the agenda for us to work on what we needed. We were ""forced"" to stick to the script of the pre-made agenda. We thought we would have time to work on what we needed (free time if you will) for us to strategically plan for our own implementation.",Neutral,Neutral
+6/21/18 16:59,6/21/18 17:10,IP Address,67.134.206.38,100,701,TRUE,6/21/18 17:10,R_2b2CWJod02IkDTD,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,System Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Somewhat agree,It was nice to have a checklist feedback sheet.,"It was slightly awkward to complete the survey with the TF at the table. If I had been dissatisfied, I would not have been comfortable providing hones feedback.","Completely
+Satisfied","Completely
+Satisfied",The rock/paper/scissors activity was fun and engaging. The handouts/visuals were helpful to understand the Objectivity/specificity matrix. The examples were also helpful to clarify the concept.,N/A,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",Seeing an actual lesson on the video was helpful. The table/partner discussions helped to think more deeply about the concepts.,It would be helpful to have more background information about the lesson. It felt a little out of context.,,,,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",Group discussion was helpful.,It felt rushed.,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",Our TF was flexible and responsive to the needs of our team.,More time for teams to prepare for their own work.,Neutral,Neutral
+6/21/18 17:07,6/21/18 17:11,IP Address,67.134.206.37,100,235,TRUE,6/21/18 17:11,R_2VBZdpDJnicG3Nr,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,Somewhat agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,High School Case,,,,,"Moderately
+Dissatisfied","Moderately
+Dissatisfied",,,High School Case,,,,,"Moderately
+Dissatisfied","Moderately
+Dissatisfied",,,"Completely
+Satisfied","Completely
+Satisfied",,,Neutral,Strongly agree
+6/21/18 17:07,6/21/18 17:11,IP Address,67.134.206.35,100,245,TRUE,6/21/18 17:11,R_1gtmuPp0qL1J4bN,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",I really enjoyed watching video of teaching!,Nothing,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",,none,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 17:00,6/21/18 17:11,IP Address,67.134.206.35,100,664,TRUE,6/21/18 17:11,R_2WM8E3681nR0fyY,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",Vivid Images protocol was so powerful!,Nothing at this time,,,,Somewhat disagree,Deirdra was phenomenal and receptive to the constructive criticism.,It may have been uncomfortable to give the TF or Mentor their feedback right to them.,"Completely
+Satisfied","Completely
+Satisfied",I loved Elizabeth's energy. Practicing with the Matrix was so helpful and a wonderful tool that I will be definitely using next year.,I would have loved to hear another session presented from her.,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",Appropriate reflection and work time which I appreciated!,N/A,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",It was powerful to hear the fifth grade team reflect on their work this past year.,Possibly a little more move time! It seemed like I wasn't the only one with low energy after lunch.,,,,,"Completely
+Satisfied","Completely
+Satisfied","Rafael was absolutely wonderful to work with! He was very clear about the presentation for tomorrow. He also did a very engaging activity with our school team and that connected the ACE Habits of Mind, staying with norms, and reflecting on teacher/student interaction, along with many other ideas that connected with our learnings from this past week. It was an honor to work with him this past week and I am so grateful that he shared his talents with us.",Green team time was so effective and gave us the foundation we need to kick start Data Wise in August.,Strongly agree,Somewhat agree
+6/21/18 17:01,6/21/18 17:12,IP Address,67.134.206.47,100,659,TRUE,6/21/18 17:12,R_Y4RvgyIzJGhZtpT,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied",Neutral,The idea behind the Vivid Images protocol was a great way to awaken our brains.,"Some of the cards were a little complex and it made me think about students feel, especially when the topic is related to something they have not been exposed to.",,,,Somewhat agree,"I appreciated providing feedback but I felt it was a little uncomfortable, especially if it wasn't a good experience with my TF (luckily my was a great and positive experience).",Not doing the activity while the TF is sitting right there next to you.,"Completely
+Satisfied","Completely
+Satisfied",I loved the activity; its something I can take back to my school and use in multiple ways.,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 17:02,6/21/18 17:12,IP Address,67.134.206.35,100,624,TRUE,6/21/18 17:12,R_2fKhZCqKD5xIX1M,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,"Moderately
+Satisfied",Question and Answer Session,,Neutral,Neutral,Survey data for our Teaching Fellow!,Framing the drawing activity better and relate it to data.,,,,Strongly agree,Iron sharpens Iron,This could have been included in the daily survey. This would have allowed the TF to track the growth from the beginning of the year and the end of the year!,Neutral,Neutral,Framing it as it relates to the data.,Not certain I see the value of this activity other than team building :),Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",Loved the video and collaborating around the problem of practice!,Effective as is.,,,,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",Loved the talking to my peers regarding the shift in instruction. Focusing on how is more important than the what. I was able to see the gap between what we have been doing in DDI and the gap with what Data Wise is designed to do!,,,,,,"Completely
+Satisfied","Completely
+Satisfied",Time to complete our presentation. Great TF assistance!,,Somewhat agree,Somewhat agree
+6/21/18 17:00,6/21/18 17:13,IP Address,67.134.206.39,100,727,TRUE,6/21/18 17:13,R_2fvxl7IEkMPzDON,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",The Vivid Image activity was interesting and showed me that people interpret words so differently.,,,,,Neutral,The process of being able to give the feedback.,I would have liked the opportunity to have time to reflect on this. Maybe it could be given as homework that we bring back one day. I also feel some people may not have been 100% honest in their feedback due to having to give it directly to the fellow.,"Completely
+Satisfied","Completely
+Satisfied","I LOVED the energy and approach of Liz. She had so much important information to share but had a really ""light"" approach to it.",More of it!!!,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",I wish we had a bit more time to work with our table and less time on the slides.,,,,,,Elementary Case,"Completely
+Satisfied","Moderately
+Satisfied",Being able to see all the other group's Problem of Practice,Take pictures of each anchor chart and host it somewhere for all to view. I am always looking for more examples and this may be an easy way to do this.,,,,,"Completely
+Satisfied","Completely
+Satisfied","I have to say that Rafael did a wonderful job of including an activity today that directly connected to soooooo many aspects of the Data Wise process. At first I didn't understand the purpose but as we dug deeper, it became so clear. I will be sure to ""steal"" this for my own staff meetings.",,Somewhat agree,Somewhat agree
+6/21/18 15:49,6/21/18 17:14,IP Address,67.134.206.35,100,5129,TRUE,6/21/18 17:14,R_1QsvYAoLt0rR6j3,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,System Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",recognition of the importance of clear directions/descriptions,,,,,Somewhat agree,It felt a little forced that everyone had to provide feedback. Some people are not comfortable with facing someone and giving them direct feedback,"allow the feedback to be personal to the fellow, but not call out the person giving feedback unless they want the fellow to know who they are","Completely
+Satisfied","Completely
+Satisfied","was given a quick protocol on how to get people up, moving and positive",,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",there was a lot of information shared to move us from step 4 through 7,the presenters need to really work on beginning and ending on time. The consistently run over time,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",lots of information given to move through levels 6 & 7,the presenters need to be better about starting and ending on time.,"Completely
+Satisfied","Completely
+Satisfied",we were able to complete all of our tasks,,Somewhat agree,Strongly agree
+6/21/18 17:04,6/21/18 17:14,IP Address,67.134.206.45,100,616,TRUE,6/21/18 17:14,R_Wqyr27yMCZKvNfP,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,,Hearing about how Data Wise would be supportive in assisting schools put the process into action.,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied","Awesome rocky paper scissor activity, especially first thing in the morning. Paying attention to detail is very important.",,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied","
+Seeing the before and after of the teachers and students in the case study was my key takeaway.(seeing the teacher buy in and the outcome of the data) I also like that their instructional strategy was modeling.
+",,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",Class discussion worked well. Hearing the different perspectives from my table partners and how close some of our observations were was a highlight for me.,,"Completely
+Satisfied","Completely
+Satisfied",Pretty good discussion on pinpointing what our challenges will be heading into the Data Wise process.,,Strongly agree,Strongly agree
+6/21/18 10:48,6/21/18 17:15,IP Address,67.134.206.34,100,23214,TRUE,6/21/18 17:15,R_1oA503NJrlhkofF,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",Short and sweet; liked the Choose your own adventure slide,Just right,,,,Strongly agree,Gained another tool to take back and facilitate with my school team; liked idea of having facilitator tally feedback responses or place initials of respondents in the table so that it's actionable feedback for the facilitator.,Can we also do this earlier in the week with our Green Team teaching fellow? We had immediate tension on Monday and that might have alleviated that tension and not feel like we had to bring it to Kathy or Candice's attention...,"Completely
+Satisfied","Completely
+Satisfied","Liz's energy, responsiveness to the audience; engaged Art Smart people (our Art teacher lit up); got us up and moving Rock Paper Scissors (reminded me of Highlander--there can be only one! :)) Showed us models gave us guided practice, incorporated tech for our survey then de-emphasized the ""right"" answer but more about thinking intentionally about how to observe instruction. Sooooo awesome!",More time with Liz but Thursday was not too late; she's the right person to mix things up this late in the week!,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied","I like how they responded to one of our Deltas about only seeing one piece of student work yesterday; they explained there were 27 samples of each type of writing;
+They celebrated our efforts and the similarities of our learning centered problems yesterday. We had robust opportunities to practice teacher observations with video. I appreciated receiving a hard copy of each teacher's lesson plan and silent time to analyze. Collecting information around instruction is very valuable and is an effective follow up to Liz's presentation this morning. Affinity Protocol modeling!","A list of instructional strategies! People don't know what they don't know. Also, instructional strategies are super important and we need more time with them!!!",High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",Soooo great to see Data Wise steps in action!,,"Moderately
+Satisfied","Moderately
+Satisfied",Having Charisse and Rob give guidance,Better attitude from some team members,Strongly agree,Strongly agree
+6/21/18 16:51,6/21/18 17:16,IP Address,67.134.206.35,100,1555,TRUE,6/21/18 17:16,R_3NxQxofa4fvbyiH,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Somewhat agree,,,Neutral,"Moderately
+Satisfied","The instruction was clear, and practice was fine.","This was repetitive information for me, but I know some others did need it.",Elementary Case,Neutral,"Moderately
+Satisfied",It was nice to have the transcript,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",I liked some of the samples you gave us on the power point,This was the first day this week when the presenters referred to acronyms that I didn't know a few times. Thanks,,,,,"Completely
+Satisfied","Completely
+Satisfied",We came up with these with nice sensitivity to the topic.,,Somewhat agree,Somewhat agree
+6/21/18 17:08,6/21/18 17:17,IP Address,67.134.206.33,100,524,TRUE,6/21/18 17:17,R_3UiToYP9b7Sb2ox,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,"Having the TF tally the different categories
+Allowing participants the option of being anonymous",,"Completely
+Satisfied","Completely
+Satisfied","Opening activity (rock, paper, scissors)
+All of the content","I wonder if this session should have been conducted before giving the homework of watching the Northhaven video to look for notice and wonders. 
+Maybe play the videos at the table groups instead of whole group to allow participants to replay video when needed. Although it might create too much noise...",Elementary Case,"Completely
+Satisfied","Moderately
+Satisfied",The protocol and going through the process.,Incorporate more movement or something more active to keep participants engaged.,,,,,Elementary Case,"Completely
+Satisfied","Moderately
+Satisfied","Protocols
+Process
+TF input from their experiences",Schedule this session at a different time,,,,,"Completely
+Satisfied","Completely
+Satisfied","Time 
+Bonnie",Schedule it sooner/ earlier in the day,Somewhat agree,Somewhat agree
+6/21/18 17:12,6/21/18 17:17,IP Address,67.134.206.36,100,297,TRUE,6/21/18 17:17,R_3qeD5NLSVziJXNj,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,System Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Somewhat agree,,,"Completely
+Satisfied","Completely
+Satisfied",The presenter was quite engaging.,,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",We had a little more time to work today.,Stick to the norm - start and end on time. Both sessions went over time by about 5 min.,High School Case,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,"Completely
+Satisfied","Completely
+Satisfied","Our Teaching Fellow, Keri, was amazing!",,Neutral,Neutral
+6/21/18 16:53,6/21/18 17:18,IP Address,67.134.206.8,100,1466,TRUE,6/21/18 17:18,R_27UnPolAXFnsL10,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied","Completely
+Satisfied","My teaching fellow, even though he was great, made himself even better",,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",The support from rock/paper/scissors partners was great.,,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied","It was nice to see how the problem of practice is implemented in the classroom. I think it was really great for me, personally, to see the language arts cases. It really made me reflect on my own work.
+",,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",I was able to see the problem of practice in action and reflect on my own teaching.,,"Completely
+Satisfied","Completely
+Satisfied",Jim is awesome. I liked reflecting.,,Strongly agree,Somewhat agree
+6/21/18 17:11,6/21/18 17:18,IP Address,67.134.206.42,100,414,TRUE,6/21/18 17:18,R_2UaWIl0homoI6Qu,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,our teaching fellow was very appreciative of the feedback. Feedback was very positive. It was a great opportunity to share appreciation for her assistance,,"Completely
+Satisfied","Completely
+Satisfied",Rock paper scissors energized,need movement in the middle of the session,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",viewing video and discussing with group,a little more time between transition of slides,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,,,,,Strongly agree,Strongly agree
+6/21/18 17:10,6/21/18 17:20,IP Address,67.134.206.39,100,551,TRUE,6/21/18 17:20,R_3TUNm1VFp4MBwIx,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Satisfied","Moderately
+Satisfied",,,,,,Somewhat agree,It gave our TF the courage to share more about her Data Wise process which was extremely beneficial.,,"Moderately
+Satisfied","Moderately
+Satisfied",,"Rock Paper Scissors and the other protocols are just not fun for me, sorry.",Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",,The video of the group just praising themselves for 7 minutes was perhaps not the best use of time.,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly disagree,Strongly disagree
+6/21/18 17:13,6/21/18 17:22,IP Address,67.134.206.40,100,566,TRUE,6/21/18 17:22,R_21gCoX768yNKGVr,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,"Completely
+Satisfied","Straight-forward, answered all questions honestly.",N/A,"Completely
+Satisfied","Completely
+Satisfied",Information was presented in a meaningful way. Engagement was high and the times were adhered to.,N/A,,,,Strongly agree,,N?A,"Completely
+Satisfied","Completely
+Satisfied",Clear purpose for seeing the big picture.,N/A,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",Great exemplar of how the Data Wise processes drive school improvement.,N/A,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",To see these steps in action and the testimonies of the students and staff.,N/A,"Completely
+Satisfied","Completely
+Satisfied",This was pointed and specific. Great discussion.,N/A,Strongly agree,Strongly agree
+6/21/18 17:15,6/21/18 17:23,IP Address,67.134.204.47,100,508,TRUE,6/21/18 17:23,R_uajk0XnWXerVJjH,,,,,42.38000488,-71.13289642,anonymous,EN,Teaching Fellow,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,,Could be done next time on Wednesday.,,,,"Completely
+Satisfied","Completely
+Satisfied",What a great energy!!!!,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",Infinity Protocol,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,Lots of information in the same section,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Somewhat agree,Somewhat agree
+6/21/18 17:11,6/21/18 17:25,IP Address,65.112.10.139,100,809,TRUE,6/21/18 17:25,R_1hEGsCv9dPFD77g,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,Yes,"Moderately
+Satisfied",The sharing of available ready-to-use implementation resources was very helpful.,N/A,"Completely
+Satisfied","Completely
+Satisfied","The Vivid Image Activity and City's presentation was real world relevant, and powerful.",N/A,,,,Strongly agree,Continuous improvement applies at all levels; my teaching fellow was awesome and invited the feedback.,N/A,"Completely
+Satisfied","Completely
+Satisfied",All aspects of the session worked well.,N/A,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",The table group collaboration worked really well.,N/A,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",It was a real world practical example that was very helpful.,N/A,"Completely
+Satisfied","Completely
+Satisfied",My school team was able to reflect and share.,N/A,Strongly agree,Strongly agree
+6/21/18 16:58,6/21/18 17:39,IP Address,65.112.8.131,100,2484,TRUE,6/21/18 17:39,R_1iexZMD1KSVDEnL,,,,,42.38000488,-71.13289642,anonymous,EN,Teaching Fellow,System Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",Clear and concise summary again.,N/A,Strongly agree,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,,,,,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 17:12,6/21/18 17:43,IP Address,67.134.206.21,100,1908,TRUE,6/21/18 17:43,R_1OT4rQrfNes5fnU,,,,,42.38000488,-71.13289642,anonymous,EN,Practitioner,School Team,No,,,,"Completely
+Dissatisfied","Completely
+Dissatisfied",why do we waste so much time,more time working on the steps of the process,,,,Neutral,'-Was confused about multiple facilitators; our teaching fellow David Baiz was excellent,nothing it was OK,"Moderately
+Satisfied","Completely
+Satisfied",I love this presenter and topic but it was filled with so much fluff!,More meet! The one slide on instructional core could have been the whole time.,High School Case,,,,,"Completely
+Dissatisfied",Neutral,"I felt like I was observing a fundamental misunderstanding of the relative importance of each step of data wise. To have spent three days on steps 1-3 and a few minutes on selecting the instructional intervention was shocking to me. The alignment between data, problem, solution, and assessment of solution seems critical. I get that the learner centered problem could be one of many - but the solution should be both robust and evidence-based. This usually requires considerable pondering, expertise, and processing.",It is weird to me that it worked. I loved that is was a real case and thank the presenters for their authenticity in bringing it forward. The downside of this is there were understandably not open to criticism (I might not be either) and wanted to sing their teachers' praises. Fine but a trade off - great example. Looking at the flaws with a hard head might have been even better.,High School Case,,,,,Neutral,"Completely
+Dissatisfied","it is real
+
+the two templates were excellent","the fact that ""instructional strategies"" is part of a sentence before the ""and"" This is hard for me to get over.",Neutral,Neutral,,,,
+6/21/18 17:41,6/21/18 17:46,IP Address,65.112.8.140,100,324,TRUE,6/21/18 17:46,R_1LHicz6UslNVsJk,,,,,42.38000488,-71.13289642,anonymous,EN,Teaching Fellow,System Team,No,,,,"Moderately
+Satisfied","Completely
+Satisfied",,,Strongly agree,Great to get feedback,Nothing,,,,"Completely
+Satisfied","Completely
+Satisfied",Interactive and full of great information,,Elementary Case,"Completely
+Satisfied","Moderately
+Satisfied",,Be really clear that multiple data sources are used- not just one observation. I'd review and stress this in multiple ways.,,,,,Elementary Case,"Completely
+Satisfied","Moderately
+Satisfied",,,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,Not enough time,Somewhat disagree,Somewhat disagree
+6/21/18 17:46,6/21/18 17:50,IP Address,65.112.8.142,100,249,TRUE,6/21/18 17:50,R_24N7yjD66GVYi5v,,,,,42.38000488,-71.13289642,anonymous,EN,Teaching Fellow,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,,,,,,"Completely
+Satisfied","Completely
+Satisfied",This session was much more interactive than the other session this week.,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,My blue team reported that they felt there were too many acronyms used during the discussion. They felt a little lost when this occurred.,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
+6/21/18 21:04,6/21/18 21:08,IP Address,50.234.189.22,100,255,TRUE,6/21/18 21:08,R_2QzgVi8aLGMMGol,,,,,42.38000488,-71.13289642,anonymous,EN,Teaching Fellow,School Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,Neutral,,"Our roles should have been clarified before we began working with our blue team groups. We were not explicitly told to offer our opinions or experiences to the group, so I made the assumption that this role was similar to other facilitator roles across HGSE. In the feedback, my group said they wanted to hear more from me and my experiences.",,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,,Elementary Case,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,Strongly disagree,Strongly disagree
+6/21/18 16:50,6/21/18 22:30,IP Address,50.200.61.230,100,20421,TRUE,6/21/18 22:30,R_3NEYGonuSUxOQK5,,,,,42.35839844,-71.05979919,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,partner at table did not understand the vivid images protocol,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",Liz City is my spirit animal.,,Elementary Case,"Moderately
+Dissatisfied","Moderately
+Dissatisfied",,"it felt too much like a dry lecture - slides were too full, a lot of reading off of the slides. I commented that things felt rushed yesterday but i meant we were rushed through the group work - today it felt like the presenters slowed down to a glacier pace in how they talked, so the energy was really low.",,,,,Elementary Case,"Moderately
+Satisfied","Moderately
+Dissatisfied",We had some views of an accountability table within the action plan.,"I don't think this ""level of messy"" is really necessary. I feel there is room for a better design for the process.",,,,,"Completely
+Satisfied","Completely
+Satisfied",teaching fellow was hlepful,,Neutral,Neutral
+6/22/18 6:32,6/22/18 6:34,IP Address,209.117.115.100,100,125,TRUE,6/22/18 6:34,R_3FKlKTurokwKCi9,,,,,42.2848053,-71.07409668,anonymous,EN,Teaching Fellow,School Team,No,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,I liked getting this feedback. It was interesting to see the different needs of the table.,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,High School Case,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,"Completely
+Satisfied","Completely
+Satisfied",,,Somewhat agree,Somewhat agree
+6/21/18 17:07,6/22/18 15:51,IP Address,24.61.8.116,100,81850,TRUE,6/22/18 15:51,R_3lrCgurGxRGqPDp,,,,,42.36459351,-71.10279846,anonymous,EN,Practitioner,School Team,Yes,"Moderately
+Satisfied",,,"Moderately
+Satisfied","Completely
+Satisfied","Vivd image activity - connection to seeing instruction and articulating what we see and aim to see in schools, classrooms, learning, etc.",In the future if would be helpful for TFs to see and know what the feedback sheet criteria is before the participants had seen it.,,,,Strongly agree,"As a TF, I think it was helpful for others to see that as a teacher, principal, leader, etc. participants should be open to receiving feedback and using the feedback to improve.",In the future if would be helpful for TFs to see and know what the feedback sheet criteria is before the participants had seen it.,"Completely
+Satisfied","Completely
+Satisfied",acknowledging joy and meaning to learning. activities that support evidence based practices in learning,maybe take out the PISA data part?,Elementary Case,"Completely
+Satisfied","Moderately
+Satisfied","The participants shared that they felt it was helpful that the facilitators said that this work is ""messy"". It was also helpful to practice the different ways we can examine instruction","Maybe some ideas for schools about ideas of how to come to agreement in time efficient and effective ways when making decisions about the learning centered problem, problem of practice, etc.",,,,,Elementary Case,"Completely
+Satisfied",Neutral,Important topic - blending adaptive and technical work,"Is there a way that Steps 5, 6, 7 could happen before lunch? My blue team table and green teams suggested that next year - instead of having the BBQ at 6-8 pm.. that it would happen earlier. By the time we got to Step 6 and 7 in the afternoon, the table team was quite tired.",,,,,"Completely
+Satisfied","Completely
+Satisfied",Time for school teams to work together on reflection and their big challenge (thinking about next steps when schools are back at their sites.. the what next?),Do this earlier in the day -- maybe right after lunch?.. then head right into an early evening BBQ at 4:30-6:30 or 5-7 right after this session?,Somewhat agree,Somewhat agree
+6/21/18 16:45,6/21/18 16:52,IP Address,67.134.206.35,69,382,FALSE,6/28/18 16:52,R_1pAVs79xTtYdT83,,,,,,,anonymous,EN,Practitioner,School Team,Yes,"Completely
+Satisfied",time to work with team,more down time survey,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,"It was fine, but I think my teaching fellow was a little surprised about the feedback. I could tell in their face.","Completely
+Satisfied","Completely
+Satisfied",Fun time (rock paper scissor),,Elementary Case,"Moderately
+Satisfied",,I was focused on PGES stuff as I watched. I don't think I knew the correct way to watch the video. Maybe give some explanation on what angle to use when approaching the video.,"Change groups again....
+I feel I was with the same group and hearing viewpoints from the same people for a long while.",,,,,,,,,,,,,,,,,,,
+6/21/18 16:46,6/21/18 17:48,IP Address,173.9.42.13,13,3743,FALSE,6/28/18 17:48,R_sR9N9v8DBBeqgJb,,,,,,,anonymous,EN,Teaching Fellow,School Team,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+6/21/18 17:11,6/22/18 6:23,IP Address,64.119.142.6,87,47571,FALSE,6/29/18 6:24,R_RyuIS26XbHqYwGl,,,,,,,anonymous,EN,Practitioner,School Team,No,,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,,,,Strongly agree,,,"Moderately
+Satisfied","Moderately
+Satisfied",,,Elementary Case,"Moderately
+Dissatisfied","Moderately
+Dissatisfied",,,,,,,Elementary Case,"Moderately
+Dissatisfied","Moderately
+Dissatisfied",,,,,,,,,,,,
+6/21/18 17:51,6/22/18 10:03,IP Address,67.134.206.35,13,58326,FALSE,6/29/18 10:04,R_2v7hPBRSIwMSbfJ,,,,,,,anonymous,EN,Teaching Fellow,School Team,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+7/20/18 11:00,7/20/18 11:01,IP Address,170.185.86.163,100,72,TRUE,7/20/18 11:01,R_3p3EKpSl2IcUSpf,,,,,37.98869324,-84.48799896,anonymous,EN,Practitioner,School Team,Yes,"Completely
+Satisfied",,,"Completely
+Satisfied","Completely
+Satisfied",,,,,,Strongly agree,,,"Completely
+Satisfied","Completely
+Satisfied",,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,Elementary Case,"Completely
+Satisfied","Completely
+Satisfied",,,,,,,"Completely
+Satisfied","Completely
+Satisfied",,,Strongly agree,Strongly agree
