@@ -49,7 +49,7 @@ var app = express();
 // set up the template engine
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
-//app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(require('morgan')('combined'));
 app.use(require('cookie-parser')());
@@ -59,7 +59,6 @@ app.use(require('express-session')({ secret: 'keyboard cat', resave: false, save
 
 app.use(passport.initialize());
 app.use(passport.session());
-
 // GET response for '/'
 app.get('/',
   function(req, res) {
@@ -73,7 +72,7 @@ app.get('/login',
   });
   
 app.post('/login', 
-  passport.authenticate('local', { failureRedirect: '/login' }),
+  passport.authenticate('local', { failureRedirect: '/login', failureFlash: true}),
   function(req, res) {
     res.redirect('/');
   });
@@ -84,13 +83,9 @@ app.get('/logout',
     res.redirect('/');
   });
 
-app.get('/profile',
-  require('connect-ensure-login').ensureLoggedIn(),
-  function(req, res){
-    res.render('profile', { user: req.user });
-  });
+app.post('/run', runNormalizer);
 
-function successPrediction(request, response) {
+function runNormalizer(request, response) {
 	var n = request.query
 	var fields = n.fields;
 	var values = n.values;

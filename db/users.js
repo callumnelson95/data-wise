@@ -1,6 +1,5 @@
 var records = [
     { id: 1, username: 'datawiseproject', password: 'dwharvard123!', displayName: 'Data Wise', emails: [ { value: 'datawiseproject@gmail.com' } ] }
-  , { id: 2, username: 'jill', password: 'birthday', displayName: 'Jill', emails: [ { value: 'jill@example.com' } ] }
 ];
 
 exports.findById = function(id, cb) {
