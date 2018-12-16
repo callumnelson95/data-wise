@@ -22,6 +22,7 @@
   "homepage": "https://github.com/callumnelson95/data-wise#readme",
   "dependencies": {
     "consolidate": "^0.15.1",
+    "cookie-parser": "^1.4.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "morgan": "^1.9.1",
