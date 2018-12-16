@@ -83,17 +83,23 @@ app.get('/logout',
     res.redirect('/');
   });
 
-app.post('/run', function(req, res){
-	console.log(req);
-});
+app.post('/run', runNormalizer);
 
-function runNormalizer(request, response) {
-	var n = request.query
-	var fields = n.fields;
-	var values = n.values;
-	console.log(fields.concat(values));
+function runNormalizer(req, res) {
+	var program = req.body.program;
+	var year = req.body.year;
+	var day = req.body.day;
+	var survey_id = req.body.survey_id;
+	
+	var input = program.concat("_").concat(year)
 
-	var options = {
+	if (day != ''){
+		input = input.concat("_").concat(day)
+	}
+
+	console.log(input);
+
+	/*var options = {
 	  	mode: 'text',
 	  	pythonPath: '/usr/local/bin/python3',
 	  	pythonOptions: ['-u'],
@@ -121,7 +127,7 @@ function runNormalizer(request, response) {
 		  console.log('results: %j', results[0]);
 	  
 		});
-	});
+	});*/
 }
 
 
