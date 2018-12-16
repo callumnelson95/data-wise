@@ -46,6 +46,8 @@ passport.deserializeUser(function(id, cb) {
 
 var app = express();
 
+var port = process.env.PORT || 8080;
+
 // set up the template engine
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
@@ -138,6 +140,6 @@ function runNormalizer(req, res) {
 }
 
 
-app.listen(8080, function() {
-	console.log("Listening on " + 8080);
+app.listen(port, function() {
+	console.log("Listening on " + port);
 });
