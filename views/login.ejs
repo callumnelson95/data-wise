@@ -13,32 +13,15 @@
   <body>
 
     <div class="container">
-      <form action="/login" method="post">
-        <div>
-        <label>Username:</label>
-        <input type="text" name="username"/><br/>
-        </div>
-        <div>
-        <label>Password:</label>
-        <input type="password" name="password"/>
-        </div>
-        <div>
-        <input type="submit" value="Submit"/>
-        </div>
-      </form>
-      <!--<form class="form-signin" action="/login" method="post">
+      
+      <form class="form-signin" action="/login" method="post">
         <h2 class="form-signin-heading">Please sign in</h2>
         <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="text" id="inputPassword" class="form-control" placeholder="Username" required autofocus>
+        <input type="text" name="username" class="form-control" placeholder="Username" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-        <<div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
-        <button id="signin" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      </form>-->
+        <input type="password" name="password" class="form-control" placeholder="Password" required>
+        <button id="signin" class="btn btn-lg btn-primary btn-block" type="submit" value="submit">Sign in</button>
+      </form>
 
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

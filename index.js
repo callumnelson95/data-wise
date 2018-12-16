@@ -47,34 +47,48 @@ passport.deserializeUser(function(id, cb) {
 var app = express();
 
 // set up the template engine
-app.engine('html', engines.hogan);
-app.set('views', 'views');
-app.set('view engine', 'html');
-app.use(express.static(path.join(__dirname, 'public')));
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs');
+//app.use(express.static(path.join(__dirname, 'public')));
+
+app.use(require('morgan')('combined'));
+app.use(require('cookie-parser')());
+app.use(require('body-parser').urlencoded({ extended: true }));
+app.use(require('express-session')({ secret: 'keyboard cat', resave: false, saveUninitialized: false }));
+
 
 app.use(passport.initialize());
 app.use(passport.session());
+
 // GET response for '/'
 app.get('/',
   function(req, res) {
-    res.render('login.html', { user: req.user });
+    res.render('home', { user: req.user });
     console.log(res.user);
   });
 
-app.post('/login', 
-  passport.authenticate('local', { 
-  	successRedirect: '/home.html',
-  	failureRedirect: '/',
-  	failureFlash: true 
-  }));
-
 app.get('/login',
   function(req, res){
-    res.render('home.html');
+    res.render('login');
+  });
+  
+app.post('/login', 
+  passport.authenticate('local', { failureRedirect: '/login' }),
+  function(req, res) {
+    res.redirect('/');
   });
 
-var port = process.env.PORT || 8080;
+app.get('/logout',
+  function(req, res){
+    req.logout();
+    res.redirect('/');
+  });
 
+app.get('/profile',
+  require('connect-ensure-login').ensureLoggedIn(),
+  function(req, res){
+    res.render('profile', { user: req.user });
+  });
 
 function successPrediction(request, response) {
 	var n = request.query
@@ -114,6 +128,6 @@ function successPrediction(request, response) {
 }
 
 
-app.listen(port, function() {
-	console.log("Listening on " + port);
+app.listen(8080, function() {
+	console.log("Listening on " + 8080);
 });
