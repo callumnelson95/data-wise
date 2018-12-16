@@ -3,7 +3,7 @@ var bodyParser = require('body-parser');
 var engines = require('consolidate');
 var path = require('path');
 var engines = require('consolidate');
-var PythonShell = require('python-shell');
+const ps = require('python-shell');
 var passport = require('passport');
 var Strategy = require('passport-local').Strategy;
 var db = require('./db');
@@ -86,48 +86,55 @@ app.get('/logout',
 app.post('/run', runNormalizer);
 
 function runNormalizer(req, res) {
-	var program = req.body.program;
-	var year = req.body.year;
-	var day = req.body.day;
-	var survey_id = req.body.survey_id;
-	
-	var input = program.concat("_").concat(year)
 
-	if (day != ''){
+	var program = req.body.p;
+	var year = req.body.y;
+	var day = req.body.d;
+	var survey_id = req.body.sid;
+
+	console.log(program);
+	console.log(year);
+	console.log()
+
+	if (program == "Select program"){
+		data = {response: "Error: Please be sure to select the program"}
+		res.json(data);
+		return
+	}else if (year == "Select year"){
+		data = {response: "Error: Please be sure to select the year"}
+		res.json(data);
+		return
+	}else if (survey_id == '' || survey_id.substring(0,2) != 'SV'){
+		data = {response: "Error: You either did not enter an ID or entered an invalid ID"}
+		res.json(data);
+		return
+	}
+	
+	var input = year.concat("_").concat(program)
+
+	if (day != 'N/A' || day != 'Select day'){
 		input = input.concat("_").concat(day)
 	}
 
 	console.log(input);
 
-	/*var options = {
-	  	mode: 'text',
-	  	pythonPath: '/usr/local/bin/python3',
-	  	pythonOptions: ['-u'],
-	  	scriptPath: 'public/ml',
-	  	args: fields.concat(values)
+	var options = {
+		  mode: 'text',
+		  pythonPath: '/Users/callumnelson/anaconda3/bin/python3',
+		  pythonOptions: ['-u'],
+		  args: [input, survey_id]
 	};
 
-	PythonShell.run('edit_feat.py', options, function (err, results) {
+	ps.PythonShell.run('qualtrics_online.py', options, function (err, results) {
 	  	if (err) throw err;
+	  	console.log('Starting process');
+	  	data = {response: "Success: Visit the dashboard to see the new data!"}
+		console.log(results);
+		console.log('Success!');
+		res.json(data);
+		return
+	});
 
-
-		var options = {
-		  mode: 'text',
-		  pythonPath: '/usr/local/bin/python3',
-		  pythonOptions: ['-u'],
-		  scriptPath: 'public/ml',
-		  args: []
-		};
-
-	  	PythonShell.run('predict_success.py', options, function (err, results) {
-		  if (err) throw err;
-		  // results is an array consisting of messages collected during execution
-		  label = parseFloat(results[0])
-		  response.json(label);
-		  console.log('results: %j', results[0]);
-	  
-		});
-	});*/
 }
 
 

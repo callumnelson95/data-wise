@@ -37,47 +37,51 @@
 		    </div>
 
 		    <div class="container">
-		      <!-- Example row of columns -->
 		      <div class="row">
 		        <div class="col-md-6">
 		          <h2>Add a new survey</h2>
-		          <p>Select the name of the program and the year. Enter the survey ID from qualtrics.</p>
-		          <form class="script-run" action="/run" method="post">
-					  <div class="row">
-					    <div class="form-group col-md-4">
-					    	<select name="program" class="form-control">
-						      	<option selected>Select program</option>
-						        <option>DWI</option>
-						        <option>DWJ</option>
-						        <option>DWH</option>
-						        <option>DWAU</option>
-						        <option>DWO</option>
-						        <option>DWA</option>
-						    </select>
-					    </div>
-					    <div class="form-group col-md-4">
-						    <select name="year" class="form-control">
-						      	<option selected>Select year</option>
-						        <option>2017</option>
-						        <option>2018</option>
-						        <option>2019</option>
-						        <option>2020</option>
-						    </select>
-					    </div>
-					    <div class="form-group col-md-4">
-					      	<input type="text" name="day" class="form-control" placeholder="Day (optional)">
-					    </div>
-					  </div>
-					  <div class="row">
-					  	<div class="col-md-4">
-					  		<input type="text" name="survey_id" class="form-control" placeholder="Survey ID">
-					  	</div>
-					  	<div id="submit-button" class="form-group col-md-4">
-					  		<button type="submit" class="btn btn-success" value="submit">Submit</button> 
-					  	</div>
-					  	<div class="col-md-4"></div>
-					  </div>
-				  </form>
+		          <p>Select the name of the program and the year. If applicable, select the day of the survey; otherwise, select N/A. Enter the survey ID from qualtrics.</p>
+		          
+				  <div class="row">
+				    <div class="form-group col-md-4">
+				    	<select id="program" name="program" class="form-control">
+					      	<option selected>Select program</option>
+					        <option>DWI</option>
+					        <option>DWJ</option>
+					        <option>DWH</option>
+					        <option>DWAU</option>
+					        <option>DWO</option>
+					        <option>DWA</option>
+					    </select>
+				    </div>
+				    <div class="form-group col-md-4">
+					    <select id="year" name="year" class="form-control">
+					      	<option selected>Select year</option>
+					        <option>2017</option>
+					        <option>2018</option>
+					        <option>2019</option>
+					        <option>2020</option>
+					    </select>
+				    </div>
+				    <div class="form-group col-md-4">
+				      	<input id="day" type="text" name="day" class="form-control" placeholder="Day">
+				    </div>
+				  </div>
+				  <div class="row">
+				  	<div class="col-md-3"></div>
+				  	<div class="col-md-6">
+				  		<input id="survey_id" type="text" name="survey_id" class="form-control" placeholder="Survey ID">
+				  	</div>
+				  	<div class="col-md-3"></div>
+				  </div>
+				  <br>
+				  <div class="row">
+				  	<div class="col-md-3"></div>
+				  	<div id="submit-button" class="form-group col-md-6">
+				  		<button type="submit" class="btn btn-success" value="submit">Submit survey</button> 
+				  	</div>
+				  	<div class="col-md-3"></div>
+				  </div>
 		        </div>
 		        <div class="col-md-6" id="table-wrapper-scroll-y">
 		          <h2>Surveys already on the dashboard</h2>
@@ -129,7 +133,7 @@
 		    </div> <!-- /container -->
 		    <div id="footer" class="container">
 		    	<div class="col-md-12">
-		    		<p><a class="btn btn-danger" href="/logout" role="button">Logout</a></p>
+		    		<p><a class="btn btn-lg btn-danger" href="/logout" role="button">Logout</a></p>
 		    	</div>
 		    	<footer>
 		        	<p>&copy; DataWise Harvard</p>
@@ -137,15 +141,11 @@
 		    </div>
 		<% } %>
 
-		<!-- Bootstrap core JavaScript
-	    ================================================== -->
-	    <!-- Placed at the end of the document so the pages load faster -->
-	    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-	    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	    <script src="../../dist/js/bootstrap.min.js"></script>
-	    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-	    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	    
+	    <script src="../js/home.js"></script>
 	</body>
 </html>
 
