@@ -46,7 +46,7 @@ passport.deserializeUser(function(id, cb) {
 
 var app = express();
 
-var port = process.env.PORT || 8080;
+const port = process.env.PORT || 8080;
 
 // set up the template engine
 app.set('views', __dirname + '/views');
