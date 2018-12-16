@@ -83,7 +83,9 @@ app.get('/logout',
     res.redirect('/');
   });
 
-app.post('/run', runNormalizer);
+app.post('/run', function(req, res){
+	console.log(req);
+});
 
 function runNormalizer(request, response) {
 	var n = request.query
