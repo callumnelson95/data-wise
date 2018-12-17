@@ -14,10 +14,15 @@ $('#submit-button').click(function(){
 
 	$.post( "/run", data, function( data ) {
 
+		$('#program').val('Select program');
+		$('#year').val('Select year');
+		$('#day').val('');
+		$('#survey_id').val('');
+
 		alert( data.response );
 
 		console.log(data);
-		
+
 	});
 
 })
