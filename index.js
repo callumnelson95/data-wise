@@ -5,6 +5,7 @@ const ps = require('python-shell');
 var passport = require('passport');
 var Strategy = require('passport-local').Strategy;
 var db = require('./db');
+require('dotenv').config()
 
 // Configure the local strategy for use by Passport.
 //
@@ -120,7 +121,7 @@ function runNormalizer(req, res) {
 
 	var options = {
 		  mode: 'text',
-		  args: [input, survey_id]
+		  args: [input, survey_id, process.env.X_API_TOKEN]
 	};
 
 	ps.PythonShell.run('qualtrics_online.py', options, function (err, results) {

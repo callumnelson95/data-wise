@@ -13,9 +13,9 @@ import csv
 import re
 
 # Setting user Parameters
-def main(survey, sid):
+def main(survey, sid, api_key):
 	try:
-		apiToken = 'p3mROqpTUQfymivdYmqmeQNhtpLYqbrJDqOBYVi0'
+		apiToken = api_key
 	except KeyError:
 		print("set environment variable X_API_TOKEN")
 		sys.exit(2) 
@@ -542,8 +542,8 @@ def appendToSheets(sessionRows, overallRows):
 										   .get('updatedCells')))
 
 if __name__ == '__main__':
-	script, survey, sid = argv
-	main(survey, sid)
+	script, survey, sid, api_key = argv
+	main(survey, sid, api_key)
 	#historical()
 
 
