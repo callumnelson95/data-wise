@@ -120,7 +120,6 @@ function runNormalizer(req, res) {
 
 	var options = {
 		  mode: 'text',
-		  pythonPath: '/Users/callumnelson/anaconda3/bin/python3',
 		  pythonOptions: ['-u'],
 		  args: [input, survey_id]
 	};
