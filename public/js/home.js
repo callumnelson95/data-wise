@@ -22,7 +22,7 @@ $('#submit-button').click(function(){
 			$('#year').val('Select year');
 			$('#day').val('');
 			$('#survey_id').val('');
-			alert(alert( data.status + data.message );)
+			alert( data.status + data.message );
 		}
 	
 		console.log(data);

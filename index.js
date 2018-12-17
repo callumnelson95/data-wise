@@ -95,7 +95,6 @@ function runNormalizer(req, res) {
 
 	console.log(program);
 	console.log(year);
-	console.log()
 
 	if (program == "Select program"){
 		data = {response: "Error: Please be sure to select the program"}
