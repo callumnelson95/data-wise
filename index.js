@@ -160,14 +160,14 @@ function runNormalizer(req, res) {
 }
 
 function add_to_surveys_csv(program, year, day){
-	if (!fs.existsSync('/public/data/uploaded_surveys.csv')){
+	if (!fs.existsSync('./public/data/uploaded_surveys.csv')){
     	writer = csvWriter({ headers: ["Program", "Year", "Day"]});
 	}
   	else{
     	writer = csvWriter({sendHeaders: false});
   	}
 
-	writer.pipe(fs.createWriteStream('/public/data/uploaded_surveys.csv', {flags: 'a'}));
+	writer.pipe(fs.createWriteStream('./public/data/uploaded_surveys.csv', {flags: 'a'}));
 	writer.write({
 		Program: program,
 		Year: year,
