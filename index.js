@@ -120,7 +120,6 @@ function runNormalizer(req, res) {
 
 	var options = {
 		  mode: 'text',
-		  pythonOptions: ['-u'],
 		  args: [input, survey_id]
 	};
 
