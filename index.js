@@ -97,15 +97,18 @@ function runNormalizer(req, res) {
 	console.log(year);
 
 	if (program == "Select program"){
-		data = {response: "Error: Please be sure to select the program"}
+		data = {status: "Error",
+				message:": Please be sure to select the program"}
 		res.json(data);
 		return
 	}else if (year == "Select year"){
-		data = {response: "Error: Please be sure to select the year"}
+		data = {status: "Error",
+				message:": Please be sure to select the year"}
 		res.json(data);
 		return
 	}else if (survey_id == '' || survey_id.substring(0,2) != 'SV'){
-		data = {response: "Error: You either did not enter an ID or entered an invalid ID"}
+		data = {status: "Error",
+				message:": You either did not enter an ID or entered an invalid ID"}
 		res.json(data);
 		return
 	}
@@ -121,7 +124,7 @@ function runNormalizer(req, res) {
 
 	var options = {
 		  mode: 'text',
-		  args: [input, survey_id, process.env.key_one]
+		  args: [input, survey_id, 'p3mROqpTUQfymivdYmqmeQNhtpLYqbrJDqOBYVi0']
 	};
 
 	ps.PythonShell.run('qualtrics_online.py', options, function (err, results) {
