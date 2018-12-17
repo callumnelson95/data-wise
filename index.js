@@ -140,7 +140,7 @@ function runNormalizer(req, res) {
 	  	}
 	  	else{
 	  		console.log('Starting process');
-		  	data = {status: "Success"
+		  	data = {status: "Success",
 		  			message: ": Visit the dashboard to see the new data!"}
 			console.log(results);
 			console.log('Success!');
