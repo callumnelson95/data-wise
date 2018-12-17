@@ -544,7 +544,7 @@ def appendToSheets(sessionRows, overallRows):
 if __name__ == '__main__':
 	script, survey, sid, api_key = argv
 	main(survey, sid, api_key)
-	#historical()
+	
 
 
 

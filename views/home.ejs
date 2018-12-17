@@ -32,7 +32,7 @@
 		      <div class="container">
 		        <h1 class="display-3">Data Wise Survey Data Normalizer</h1>
 		        <p>Use this website to upload new survey responses to the 
-		        	<a href="https://datastudio.google.com/reporting/1cyLxa1MawmesZauy2ObDZ8-bfxGst4me/page/agpb" target="_blank">Data Wise Dashboard.</a> <b>Important note: </b> Make sure to check the list of surveys that have already been added to the dashboard below. If a survey has already been added, DO NOT run the program to add that survey again. Please email <a href="mailto:callum.nelson95@gmail.com">Callum Nelson</a> if you have any questions.</p>
+		        	<a href="https://datastudio.google.com/reporting/1cyLxa1MawmesZauy2ObDZ8-bfxGst4me/page/agpb" target="_blank">Data Wise Dashboard.</a> <b>Important note: </b> Make sure to check the list of surveys that have already been added to the dashboard below (you may have to scroll). If a survey has already been added, DO NOT run the program to add that survey again. Please email <a href="mailto:callum.nelson95@gmail.com">Callum Nelson</a> if you have any questions.</p>
 		      </div>
 		    </div>
 
@@ -77,56 +77,36 @@
 				  <br>
 				  <div class="row">
 				  	<div class="col-md-3"></div>
-				  	<div id="submit-button" class="form-group col-md-6">
-				  		<button type="submit" class="btn btn-success" value="submit">Submit survey</button> 
+				  	<div id="reset-button" class="form-group col-md-3">
+				  		<button type="submit" class="btn btn-primary" value="submit">Reset</button> 
+				  	</div>
+				  	<div id="submit-button" class="form-group col-md-3">
+				  		<button type="submit" class="btn btn-success" value="submit">Submit</button> 
 				  	</div>
 				  	<div class="col-md-3"></div>
 				  </div>
 		        </div>
-		        <div class="col-md-6" id="table-wrapper-scroll-y">
+		        <div class="col-md-6" id="table-wrapper">
 		          <h2>Surveys already on the dashboard</h2>
-		          <table class="table">
-					  <thead>
-					    <tr>
-					      <th scope="col">Program</th>
-					      <th scope="col">Year</th>
-					      <th scope="col">Day</th>
-					    </tr>
-					  </thead>
-					  <tbody>
-					    <tr>
-					      <td>DWH</td>
-					      <td>2018</td>
-					      <td>Group 1 Day 1</td>
-					    </tr>
-					    <tr>
-					      <td>DWH</td>
-					      <td>2018</td>
-					      <td>Group 1 Day 2</td>
-					    </tr>
-					    <tr>
-					      <td>DWH</td>
-					      <td>2018</td>
-					      <td>Group 2 Day 1</td>
-					    </tr>
-					    <tr>
-					      <td>DWH</td>
-					      <td>2018</td>
-					      <td>Group 2 Day 1</td>
-					    </tr>
-					    <tr>
-					      <td>DWH</td>
-					      <td>2018</td>
-					      <td>Group 2 Day 1</td>
-					    </tr>
-					    <tr>
-					      <td>DWH</td>
-					      <td>2018</td>
-					      <td>Group 2 Day 1</td>
-					    </tr>
-					  </tbody>
-					</table>
-		       </div>
+		          <div id="table-div" style="overflow-y: scroll;">
+			          <table class="table">
+						  <!--<thead>
+						    <tr>
+						      <th scope="col">Program</th>
+						      <th scope="col">Year</th>
+						      <th scope="col">Day</th>
+						    </tr>
+						  </thead>
+						  <tbody>
+						    <tr>
+						      <td>DWH</td>
+						      <td>2018</td>
+						      <td>Group 1 Day 1</td>
+						    </tr>
+						  </tbody>-->
+						</table>
+					</div>
+		       	</div>
 		      </div>
 
 		      <hr>

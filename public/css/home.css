@@ -1,13 +1,4 @@
 
-
-#table-wrapper-scroll-y {
-	display: block;
-	max-height: 150;
-	overflow-y: auto;
-	-ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
-
 /*
  * Globals
  */
@@ -29,7 +20,13 @@ a:hover {
   border: .05rem solid #fff;
 }
 
+#table-wrapper {
+  border-left: 1px solid black;
+}
 
+#table-div {
+  height: 180px;
+}
 /*
  * Base structure
  */
@@ -43,7 +40,7 @@ body h2{
   text-align: center;
 }
 
-#submit-button, #footer, #welcome-page{
+#submit-button, #reset-button, #footer, #welcome-page{
   text-align: center;
 }
 

@@ -6,6 +6,10 @@ var passport = require('passport');
 var Strategy = require('passport-local').Strategy;
 var db = require('./db');
 require('dotenv').config()
+var fs = require('fs');
+var csvWriter = require('csv-write-stream');
+var writer = csvWriter();
+
 
 // Configure the local strategy for use by Passport.
 //
@@ -146,12 +150,31 @@ function runNormalizer(req, res) {
 		  			message: ": Visit the dashboard to see the new data!"}
 			console.log(results);
 			console.log('Success!');
+			add_to_surveys_csv(program, year, day);
 			res.json(data);
 			return
 	  	}
 	  	
 	});
 
+}
+
+function add_to_surveys_csv(program, year, day){
+	if (!fs.existsSync('/data/uploaded_surveys.csv')){
+    	writer = csvWriter({ headers: ["Program", "Year", "Day"]});
+	}
+  	else{
+    	writer = csvWriter({sendHeaders: false});
+  	}
+
+	writer.pipe(fs.createWriteStream('/data/uploaded_surveys.csv', {flags: 'a'}));
+	writer.write({
+		Program: program,
+		Year: year,
+		Day: day
+	});
+	writer.end();
+	console.log('New program added to db: ' + program + '_' + year + '_' + day);
 }
 
 
