@@ -2,3 +2,7 @@ node_modules
 npm-debug.log
 .DS_Store
 /*.env
+qualtrics_vers2.py
+qualtrics.py
+/Historical
+/test
