@@ -133,13 +133,15 @@ function runNormalizer(req, res) {
 	  		return
 	  	}*/
 	  	if (results == undefined){
-	  		data = {response: "Error: You may have incorrectly entered the qualtrics ID. Double check to make sure it is copied correctly."};
+	  		data = {status: "Error",
+	  				message:  ": You may have incorrectly entered the qualtrics ID. Check to make sure you have the correct survey ID."};
 	  		res.json(data);
 	  		return
 	  	}
 	  	else{
 	  		console.log('Starting process');
-		  	data = {response: "Success: Visit the dashboard to see the new data!"}
+		  	data = {status: "Success"
+		  			message: ": Visit the dashboard to see the new data!"}
 			console.log(results);
 			console.log('Success!');
 			res.json(data);

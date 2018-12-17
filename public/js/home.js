@@ -14,13 +14,17 @@ $('#submit-button').click(function(){
 
 	$.post( "/run", data, function( data ) {
 
-		$('#program').val('Select program');
-		$('#year').val('Select year');
-		$('#day').val('');
-		$('#survey_id').val('');
-
-		alert( data.response );
-
+		if (data.status == "Error"){
+			alert( data.status + data.message );
+		}
+		else{
+			$('#program').val('Select program');
+			$('#year').val('Select year');
+			$('#day').val('');
+			$('#survey_id').val('');
+			alert(alert( data.status + data.message );)
+		}
+	
 		console.log(data);
 
 	});
