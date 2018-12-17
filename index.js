@@ -118,6 +118,7 @@ function runNormalizer(req, res) {
 	}
 
 	console.log(input);
+	console.log(process.env.X_API_TOKEN);
 
 	var options = {
 		  mode: 'text',
