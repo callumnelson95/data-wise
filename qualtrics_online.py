@@ -15,7 +15,7 @@ import re
 # Setting user Parameters
 def main(survey, sid):
 	try:
-		apiToken = os.environ['X_API_TOKEN']
+		apiToken = 'p3mROqpTUQfymivdYmqmeQNhtpLYqbrJDqOBYVi0'
 	except KeyError:
 		print("set environment variable X_API_TOKEN")
 		sys.exit(2) 
