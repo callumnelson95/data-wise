@@ -118,11 +118,11 @@ function runNormalizer(req, res) {
 	}
 
 	console.log(input);
-	console.log(process.env.X_API_TOKEN);
+	console.log(process.env.key_one);
 
 	var options = {
 		  mode: 'text',
-		  args: [input, survey_id, process.env.X_API_TOKEN]
+		  args: [input, survey_id, process.env.key_one]
 	};
 
 	ps.PythonShell.run('qualtrics_online.py', options, function (err, results) {
