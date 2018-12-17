@@ -126,7 +126,11 @@ function runNormalizer(req, res) {
 	};
 
 	ps.PythonShell.run('qualtrics_online.py', options, function (err, results) {
-	  	if (err) throw err;
+	  	if (err) {
+	  		data = {response: "Error: You may have incorrectly entered the qualtrics ID. Double check to make sure it is copied correctly."};
+	  		res.json(data);
+	  		throw err;
+	  	}
 	  	console.log('Starting process');
 	  	data = {response: "Success: Visit the dashboard to see the new data!"}
 		console.log(results);
