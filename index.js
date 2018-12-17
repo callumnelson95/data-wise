@@ -128,7 +128,7 @@ function runNormalizer(req, res) {
 
 	var options = {
 		  mode: 'text',
-		  args: [input, survey_id, 'p3mROqpTUQfymivdYmqmeQNhtpLYqbrJDqOBYVi0']
+		  args: [input, survey_id, process.env.key_one]
 	};
 
 	ps.PythonShell.run('qualtrics_online.py', options, function (err, results) {
@@ -160,21 +160,15 @@ function runNormalizer(req, res) {
 }
 
 function add_to_surveys_csv(program, year, day){
-	if (!fs.existsSync('./public/data/uploaded_surveys.csv')){
-    	writer = csvWriter({ headers: ["Program", "Year", "Day"]});
-	}
-  	else{
-    	writer = csvWriter({sendHeaders: false});
-  	}
+	var options = {
+		  mode: 'text',
+		  args: [program, year, day]
+	};
 
-	writer.pipe(fs.createWriteStream('./public/data/uploaded_surveys.csv', {flags: 'a'}));
-	writer.write({
-		Program: program,
-		Year: year,
-		Day: day
+	ps.PythonShell.run('write_to_csv.py', options, function (err, results) {
+	  	if (err) throw err;
 	});
-	writer.end();
-	console.log('New program added to db: ' + program + '_' + year + '_' + day);
+
 }
 
 

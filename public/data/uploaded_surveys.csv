@@ -1,8 +1,7 @@
-﻿Program,Year,Day
+Program,Year,Day
 DWH,2018,Day1Group1
-DWH,2018,Day1Group2
 DWH,2018,Day2Group1
-DWH,2018,Day2Group2
+DWH,2018,Day1Group2
 DWI,2018,Monday
 DWI,2018,Tuesday
 DWI,2018,Wednesday
@@ -13,6 +12,6 @@ DWJ,2018,Tuesday
 DWJ,2018,Wednesday
 DWJ,2018,Thursday
 DWJ,2018,Friday
-DWA,2017,
-DWA,2016,
-DWO,2018,
+DWO,2018,N/A
+DWA,2017,N/A
+DWA,2016,N/A
