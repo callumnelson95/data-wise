@@ -129,7 +129,7 @@ function runNormalizer(req, res) {
 	  	if (err) {
 	  		data = {response: "Error: You may have incorrectly entered the qualtrics ID. Double check to make sure it is copied correctly."};
 	  		res.json(data);
-	  		throw err;
+	  		//throw err;
 	  	}
 	  	console.log('Starting process');
 	  	data = {response: "Success: Visit the dashboard to see the new data!"}
