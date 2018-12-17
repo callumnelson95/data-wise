@@ -68,10 +68,10 @@ def main(survey, sid, api_key):
 
 		# Step 4: Unzipping the file
 		file = zipfile.ZipFile(io.BytesIO(requestDownload.content))
-		file.extractall(survey_name)
+		file.extractall('all_surveys/'+ survey_name)
 
 		file_name = file.namelist()[0]
-		csv_path = r'' + survey_name + '/' + file_name + ''
+		csv_path = r'all_surveys/' + survey_name + '/' + file_name + ''
 
 		# Step 5: put all values from CSV into a list so we can loop through for normalization
 		values = []
