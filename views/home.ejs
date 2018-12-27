@@ -32,18 +32,16 @@
 		      <div class="container">
 		        <h1 class="display-3">Data Wise Survey Data Normalizer</h1>
 		        <p>Use this website to upload new survey responses to the 
-		        	<a href="https://datastudio.google.com/reporting/1cyLxa1MawmesZauy2ObDZ8-bfxGst4me/page/agpb" target="_blank">Data Wise Dashboard.</a> <b>Important note: </b> Make sure to check the list of surveys that have already been added to the dashboard below (you may have to scroll). If a survey has already been added, DO NOT run the program to add that survey again. Please email <a href="mailto:callum.nelson95@gmail.com">Callum Nelson</a> if you have any questions.</p>
+		        	<a href="https://datastudio.google.com/reporting/1cyLxa1MawmesZauy2ObDZ8-bfxGst4me/page/agpb" target="_blank">Data Wise Dashboard.</a> Email <a href="mailto:callum.nelson95@gmail.com">Callum Nelson</a> if you have any questions.</p>
 		      </div>
 		    </div>
-
 		    <div class="container">
 		      <div class="row">
 		        <div class="col-md-6">
 		          <h2>Add a new survey</h2>
-		          <p>Select the name of the program and the year. If applicable, select the day of the survey; otherwise, select N/A. Enter the survey ID from qualtrics.</p>
-		          
+		          <p><b>Step 1:</b> Select the program and the year of the survey.</p>
 				  <div class="row">
-				    <div class="form-group col-md-4">
+				    <div class="form-group col-md-6">
 				    	<select id="program" name="program" class="form-control">
 					      	<option selected>Select program</option>
 					        <option>DWI</option>
@@ -54,7 +52,7 @@
 					        <option>DWA</option>
 					    </select>
 				    </div>
-				    <div class="form-group col-md-4">
+				    <div class="form-group col-md-6">
 					    <select id="year" name="year" class="form-control">
 					      	<option selected>Select year</option>
 					        <option>2017</option>
@@ -63,9 +61,23 @@
 					        <option>2020</option>
 					    </select>
 				    </div>
-				    <div class="form-group col-md-4">
+				  </div>
+				  <div class="row">
+				  	<div class="col-md-12">
+				  		<p><b>Step 2: </b>If applicable, enter the day of the survey. Otherwise, leave blank.</p>
+				  	</div>
+				  </div>
+				  <div class="row">
+				  	<div class="col-md-3"></div>
+				  	<div class="form-group col-md-6">
 				      	<input id="day" type="text" name="day" class="form-control" placeholder="Day">
 				    </div>
+				    <div class="col-md-3"></div>
+				  </div>
+				  <div class="row">
+				  	<div class="col-md-12">
+				  		<p><b>Step 3: </b>Retrieve the survey ID from <a href="https://qualtrics.harvard.edu" target="_blank">qualtrics</a> and copy it into this text box. To find the survey ID in qualtrics, click the account icon in the top right corner, then choose account settings. Survey IDs are under the Qualtrics IDs tab.</p>
+				  	</div>
 				  </div>
 				  <div class="row">
 				  	<div class="col-md-3"></div>
@@ -75,6 +87,11 @@
 				  	<div class="col-md-3"></div>
 				  </div>
 				  <br>
+				  <div class="row">
+				  	<div class="col-md-12">
+				  		<p><b>Step 4: </b>Before you submit, check the table to the right to make sure that the survey you have selected hasn't already been added to the dashboard (you may have to scroll to see all the rows in the table.</p>
+				  	</div>
+				  </div>
 				  <div class="row">
 				  	<div class="col-md-3"></div>
 				  	<div id="reset-button" class="form-group col-md-3">
@@ -87,38 +104,24 @@
 				  </div>
 		        </div>
 		        <div class="col-md-6" id="table-wrapper">
-		          <h2>Surveys already on the dashboard</h2>
-		          <div id="table-div" style="overflow-y: scroll;">
-			          <table class="table">
-						  <!--<thead>
-						    <tr>
-						      <th scope="col">Program</th>
-						      <th scope="col">Year</th>
-						      <th scope="col">Day</th>
-						    </tr>
-						  </thead>
-						  <tbody>
-						    <tr>
-						      <td>DWH</td>
-						      <td>2018</td>
-						      <td>Group 1 Day 1</td>
-						    </tr>
-						  </tbody>-->
-						</table>
-					</div>
+		        	<div class="row">
+		        		<div class="col-md-12">
+			        		<h2>Surveys already on the dashboard</h2>
+			          		<div id="table-div" style="overflow-y: scroll;">
+				          		<table class="table"></table>
+					  		</div>
+					  	</div>
+		        	</div>
+		        	<br>
+		        	<hr>
+		          	<div class="row">
+	          			<div id="logout-button" class="col-md-12">
+				    		<p><a class="btn btn-lg btn-danger" href="/logout" role="button">Logout</a></p>
+				    	</div>
+		          	</div>
 		       	</div>
 		      </div>
-
-		      <hr>
 		    </div> <!-- /container -->
-		    <div id="footer" class="container">
-		    	<div class="col-md-12">
-		    		<p><a class="btn btn-lg btn-danger" href="/logout" role="button">Logout</a></p>
-		    	</div>
-		    	<footer>
-		        	<p>&copy; DataWise Harvard</p>
-		     	</footer>
-		    </div>
 		<% } %>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

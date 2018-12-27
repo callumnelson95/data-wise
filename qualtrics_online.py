@@ -161,7 +161,8 @@ def normalize_crosstab(values, program, year, day):
 				re.compile('modify your professional practice'): ['Modify', "How much do you intend to modify your professional practice, based on your experience in the Data Wise course?"],
 				re.compile("diversity of.*learning.*community"): ['Diversity', "How satisfied were you with the diversity of the course's learning community, inclusive of racial, ethnic, professional, personal, regional, institution type, and other perspectives and backgrounds?"],
 				re.compile('scale of 0 to 10'): ['Recommend', 'On a scale of 0 to 10, how likely is it that you would recommend the Data Wise Leadership Institute to a friend or colleague?'],
-				re.compile('testimonial'): ['Testimonial', 'Please use the space below to share your testimonial']
+				re.compile('testimonial'): ['Testimonial', 'Please use the space below to share your testimonial'],
+				re.compile('support.*staff'): ['Support', 'Please indicate your satisfaction with the support from the program staff']
 				},
 		'DWJ': {re.compile('rate the overall quality'): ['Quality', 'How would you rate the overall quality of this program?'],
 				re.compile('intellectually challenging'): ['Challenge', "Today's class and activities were intellectually challenging"],
@@ -173,7 +174,8 @@ def normalize_crosstab(values, program, year, day):
 				re.compile('modify your professional practice'): ['Modify', "How much do you intend to modify your professional practice, based on your experience in the Data Wise course?"],
 				re.compile("diversity of.*learning.*community"): ['Diversity', "How satisfied were you with the diversity of the course's learning community, inclusive of racial, ethnic, professional, personal, regional, institution type, and other perspectives and backgrounds?"],
 				re.compile('scale of 0 to 10'): ['Recommend', 'On a scale of 0 to 10, how likely is it that you would recommend the Data Wise Leadership Institute to a friend or colleague?'],
-				re.compile('testimonial'): ['Testimonial', 'Please use the space below to share your testimonial']
+				re.compile('testimonial'): ['Testimonial', 'Please use the space below to share your testimonial'],
+				re.compile('support.*staff'): ['Support', 'Please indicate your satisfaction with the support from the program staff']
 				},
 		'DWI': {re.compile('rate the overall quality'): ['Quality', 'How would you rate the overall quality of this program?'],
 				re.compile('equity is central'): ['Equity1', "Today's sessions helped me articulate how and why equity is central to the work of school improvement"],
@@ -184,7 +186,8 @@ def normalize_crosstab(values, program, year, day):
 				re.compile('modify your professional practice'): ['Modify', "How much do you intend to modify your professional practice, based on your experience in the Data Wise course?"],
 				re.compile("diversity of.*learning.*community"): ['Diversity', "How satisfied were you with the diversity of the course's learning community, inclusive of racial, ethnic, professional, personal, regional, institution type, and other perspectives and backgrounds?"],
 				re.compile('scale of 0 to 10'): ['Recommend', 'On a scale of 0 to 10, how likely is it that you would recommend the Data Wise Leadership Institute to a friend or colleague?'],
-				re.compile('testimonial'): ['Testimonial', 'Please use the space below to share your testimonial']
+				re.compile('testimonial'): ['Testimonial', 'Please use the space below to share your testimonial'],
+				re.compile('support.*staff'): ['Support', 'Please indicate your satisfaction with the support from the program staff']
 				},
 				#For components, you'll also need to list the component -- split on "-"
 		'DWO': {re.compile('components'): ['Components', 'Please rate the extent to which each of the following components helped you to prepare to launch the Data Wise Improvement Process at your site'],
@@ -193,7 +196,8 @@ def normalize_crosstab(values, program, year, day):
 				re.compile('modify your professional practice'): ['Modify', "How much do you intend to modify your professional practice, based on your experience in the Data Wise course?"],
 				re.compile('scale of 0 to 10'): ['Recommend', 'On a scale of 0 to 10, how likely is it that you would recommend the Data Wise Leadership Institute to a friend or colleague?'],
 				re.compile('testimonial'): ['Testimonial', 'Please use the space below to share your testimonial'],
-				re.compile('learning objectives'): ['Objectives', 'Please indicate to what extent these learning objectives were effectively covered during the course']
+				re.compile('learning objectives'): ['Objectives', 'Please indicate to what extent these learning objectives were effectively covered during the course'],
+				re.compile('support.*staff'): ['Support', 'Please indicate your satisfaction with the support from the program staff']
 				},
 		'DWA': {re.compile('components'): ['Components', 'Please rate the extent to which each of the following components helped you to prepare to launch the Data Wise Improvement Process at your site'],
 				re.compile('rate the overall quality'): ['Quality', 'How would you rate the overall quality of this program?'],
@@ -201,7 +205,8 @@ def normalize_crosstab(values, program, year, day):
 				re.compile('modify your professional practice'): ['Modify', "How much do you intend to modify your professional practice, based on your experience in the Data Wise course?"],
 				re.compile('scale of 0 to 10'): ['Recommend', 'On a scale of 0 to 10, how likely is it that you would recommend the Data Wise Leadership Institute to a friend or colleague?'],
 				re.compile('testimonial'): ['Testimonial', 'Please use the space below to share your testimonial'],
-				re.compile('learning objectives'): ['Objectives', 'Please indicate to what extent these learning objectives were effectively covered during the course']
+				re.compile('learning objectives'): ['Objectives', 'Please indicate to what extent these learning objectives were effectively covered during the course'],
+				re.compile('support.*staff'): ['Support', 'Please indicate your satisfaction with the support from the program staff']
 				},
 		'DWAU': [],
 		'DWN': [],
@@ -406,7 +411,7 @@ def normalize_crosstab(values, program, year, day):
 							if question_category == 'Recommend':
 								response = response.split(' ')[0]
 							new_question_text = question_search_dict[program][regex][1]
-							if question_category is 'Team Norms' or question_category is 'Group Norms' or question_category is 'Components' or question_category is 'Objectives':
+							if question_category is 'Team Norms' or question_category is 'Group Norms' or question_category is 'Components' or question_category is 'Objectives' or question_category is 'Support':
 								new_question_text = question_text.split("-")[-1].strip()
 							newRow.append(role)
 							newRow.append(team)
@@ -446,7 +451,7 @@ def normalize_crosstab(values, program, year, day):
 						if question_category == 'Recommend':
 							response = response.split(' ')[0]
 						new_question_text = question_search_dict[program][regex][1]
-						if question_category is 'Team Norms' or question_category is 'Group Norms' or question_category is 'Components' or question_category is 'Objectives':
+						if question_category is 'Team Norms' or question_category is 'Group Norms' or question_category is 'Components' or question_category is 'Objectives' or question_category is 'Support':
 							new_question_text = question_text.split("-")[-1].strip()
 
 						newRow.append(role)
