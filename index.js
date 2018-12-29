@@ -126,6 +126,21 @@ function runNormalizer(req, res) {
 	console.log(input);
 	console.log(process.env.key_one);
 
+
+	//Check to see if survey ID is already in the "database"
+	//If it is, don't run. If it's not, run program
+
+	var commands = {
+		  mode: 'text',
+		  args: [survey_id]
+	};
+
+	/*ps.PythonShell.run('check_for_survey.py'. commands, function(err, results){
+		if (err) throw Error;
+		
+		console.log(results);
+	})*/
+
 	var options = {
 		  mode: 'text',
 		  args: [input, survey_id, process.env.key_one]
@@ -150,7 +165,7 @@ function runNormalizer(req, res) {
 		  			message: ": Visit the dashboard to see the new data!"}
 			console.log(results);
 			console.log('Success!');
-			add_to_surveys_csv(program, year, day);
+			add_to_surveys_csv(program, year, day, survey_id);
 			res.json(data);
 			return
 	  	}
@@ -159,10 +174,10 @@ function runNormalizer(req, res) {
 
 }
 
-function add_to_surveys_csv(program, year, day){
+function add_to_surveys_csv(program, year, day, survey_id){
 	var options = {
 		  mode: 'text',
-		  args: [program, year, day]
+		  args: [program, year, day, survey_id]
 	};
 
 	ps.PythonShell.run('write_to_csv.py', options, function (err, results) {
