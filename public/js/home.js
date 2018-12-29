@@ -55,6 +55,8 @@ $( document ).ready(function(){
 function create_table(data){
 	var allRows = data.split(/\r?\n|\r/);
 
+	$('.table').empty();
+
 	var table;
 	for (var singleRow = 0; singleRow < allRows.length; singleRow++) {
 		if (singleRow === 0) {
