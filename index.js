@@ -130,16 +130,7 @@ function runNormalizer(req, res) {
 	//Check to see if survey ID is already in the "database"
 	//If it is, don't run. If it's not, run program
 
-	var commands = {
-		  mode: 'text',
-		  args: [survey_id]
-	};
-
-	/*ps.PythonShell.run('check_for_survey.py'. commands, function(err, results){
-		if (err) throw Error;
-		
-		console.log(results);
-	})*/
+	
 
 	var options = {
 		  mode: 'text',

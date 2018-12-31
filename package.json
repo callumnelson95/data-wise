@@ -23,6 +23,7 @@
   "dependencies": {
     "consolidate": "^0.15.1",
     "cookie-parser": "^1.4.3",
+    "csv": "^5.1.0",
     "csv-write-stream": "^2.0.0",
     "dotenv": "^6.2.0",
     "ejs": "^2.6.1",

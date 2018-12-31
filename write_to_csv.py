@@ -8,6 +8,7 @@ def main(program, year, day, survey_id):
 
 	with open('public/data/uploaded_surveys.csv', 'a') as csvfile:
 	    writer = csv.writer(csvfile)
+	    writer.writerow([])
 	    writer.writerow([program, year, day, survey_id])
 
 
