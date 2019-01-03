@@ -9,6 +9,8 @@ require('dotenv').config()
 var fs = require('fs');
 var csvWriter = require('csv-write-stream');
 var writer = csvWriter();
+var parse = require('csv-parse');
+
 
 
 // Configure the local strategy for use by Passport.
@@ -126,11 +128,14 @@ function runNormalizer(req, res) {
 	console.log(input);
 	console.log(process.env.key_one);
 
+	var id_exists = check_for_id(survey_id);
 
-	//Check to see if survey ID is already in the "database"
-	//If it is, don't run. If it's not, run program
-
-	
+	if (id_exists == true){
+		data = {status: "Error",
+	  				message:  ": You have entered the ID of a survey that already exists. Please use a new survey ID."};
+  		res.json(data);
+  		return
+	}
 
 	var options = {
 		  mode: 'text',
@@ -175,6 +180,15 @@ function add_to_surveys_csv(program, year, day, survey_id){
 	  	if (err) throw err;
 	});
 
+}
+
+function check_for_id(survey_id){
+	fs.readFile('./public/data/uploaded_surveys.csv', function (err, fileData) {
+	parse(fileData, {columns: false, trim: true}, function(err, rows) {
+	    console.log(rows);
+	  })
+	})
+	return true;
 }
 
 
