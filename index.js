@@ -128,14 +128,27 @@ function runNormalizer(req, res) {
 	console.log(input);
 	console.log(process.env.key_one);
 
-	var id_exists = check_for_id(survey_id);
+	var match = 0;
 
-	if (id_exists == true){
-		data = {status: "Error",
-	  				message:  ": You have entered the ID of a survey that already exists. Please use a new survey ID."};
-  		res.json(data);
-  		return
-	}
+	fs.readFile('./public/data/uploaded_surveys.csv', function (err, fileData) {
+	parse(fileData, {columns: false, trim: true}, function(err, rows) {
+		console.log(rows);
+	    for (var i = rows.length - 1; i >= 0; i--) {
+	    	var current_id = rows[i][3];
+	    	console.log(current_id);
+	    	if (current_id == survey_id){
+	    		match = 1;
+	    	}
+	    }
+	    if (match == 1){
+			data = {status: "Error",
+		  				message:  ": You have entered the ID of a survey that already exists. Please use a new survey ID."};
+	  		res.json(data);
+	  		console.log('IDs match! Uh oh.')
+	  		return
+		}
+	  })
+	});
 
 	var options = {
 		  mode: 'text',
@@ -183,12 +196,23 @@ function add_to_surveys_csv(program, year, day, survey_id){
 }
 
 function check_for_id(survey_id){
+	var match = 0;
+
 	fs.readFile('./public/data/uploaded_surveys.csv', function (err, fileData) {
 	parse(fileData, {columns: false, trim: true}, function(err, rows) {
-	    console.log(rows);
+		console.log(rows);
+	    for (var i = rows.length - 1; i >= 0; i--) {
+	    	var current_id = rows[i][3];
+	    	console.log(current_id);
+	    	if (current_id == survey_id){
+	    		return 1;
+	    	}
+	    }
 	  })
-	})
-	return true;
+	});
+
+	console.log(match);
+	return match;
 }
 
 app.listen(port, function() {
