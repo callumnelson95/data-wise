@@ -159,7 +159,6 @@ def normalize_crosstab(values, program, year, day):
 				re.compile('group.*norms'): ['Group Norms', "To what extent did your case group practice our Data Wise norms today?"],
 				re.compile('professionally useful'): ['Useful', "To what extent did you find the Data Wise course professionally useful?"],
 				re.compile('modify your professional practice'): ['Modify', "How much do you intend to modify your professional practice, based on your experience in the Data Wise course?"],
-				re.compile("diversity of.*learning.*community"): ['Diversity', "How satisfied were you with the diversity of the course's learning community, inclusive of racial, ethnic, professional, personal, regional, institution type, and other perspectives and backgrounds?"],
 				re.compile('scale of 0 to 10'): ['Recommend', 'On a scale of 0 to 10, how likely is it that you would recommend the Data Wise Leadership Institute to a friend or colleague?'],
 				re.compile('testimonial'): ['Testimonial', 'Please use the space below to share your testimonial'],
 				re.compile('support.*staff'): ['Support', 'Please indicate your satisfaction with the support from the program staff']
@@ -167,27 +166,27 @@ def normalize_crosstab(values, program, year, day):
 		'DWJ': {re.compile('rate the overall quality'): ['Quality', 'How would you rate the overall quality of this program?'],
 				re.compile('intellectually challenging'): ['Challenge', "Today's class and activities were intellectually challenging"],
 				re.compile('equity is central'): ['Equity1', "Today's sessions helped me articulate how and why equity is central to the work of school improvement"],
-				re.compile('service of equity'): ['Equity2',"Today's class and activities helped me reflect on how Data Wise tools could be used in the service of equity"],
+				re.compile('foster equitable practices'): ['Equity2',"Today's sessions helped me build skills to use Data Wise tools to foster equitable practices"],
 				re.compile('team.*norms'): ['Team Norms',"In the team that you came to Harvard with, how well are you and your colleagues following norms?"],
 				re.compile('group.*norms'): ['Group Norms', "To what extent did your case group practice our Data Wise norms today?"],
 				re.compile('professionally useful'): ['Useful', "To what extent did you find the Data Wise course professionally useful?"],
 				re.compile('modify your professional practice'): ['Modify', "How much do you intend to modify your professional practice, based on your experience in the Data Wise course?"],
-				re.compile("diversity of.*learning.*community"): ['Diversity', "How satisfied were you with the diversity of the course's learning community, inclusive of racial, ethnic, professional, personal, regional, institution type, and other perspectives and backgrounds?"],
 				re.compile('scale of 0 to 10'): ['Recommend', 'On a scale of 0 to 10, how likely is it that you would recommend the Data Wise Leadership Institute to a friend or colleague?'],
 				re.compile('testimonial'): ['Testimonial', 'Please use the space below to share your testimonial'],
-				re.compile('support.*staff'): ['Support', 'Please indicate your satisfaction with the support from the program staff']
+				re.compile('support.*staff'): ['Support', 'Please indicate your satisfaction with the support from the program staff'],
+				re.compile('learning objectives'): ['Objectives', 'Please indicate to what extent these learning objectives were effectively covered during the course']
 				},
 		'DWI': {re.compile('rate the overall quality'): ['Quality', 'How would you rate the overall quality of this program?'],
 				re.compile('equity is central'): ['Equity1', "Today's sessions helped me articulate how and why equity is central to the work of school improvement"],
-				re.compile('service of equity'): ['Equity2',"Today's class and activities helped me reflect on how Data Wise tools could be used in the service of equity"],
+				re.compile('foster equitable practices'): ['Equity2',"Today's sessions helped me build skills to use Data Wise tools to foster equitable practices"],
 				re.compile('team.*norms'): ['Team Norms',"In the team that you came to Harvard with, how well are you and your colleagues following norms?"],
 				re.compile('group.*norms'): ['Group Norms', "To what extent did your case group practice our Data Wise norms today?"],
 				re.compile('professionally useful'): ['Useful', "To what extent did you find the Data Wise course professionally useful?"],
 				re.compile('modify your professional practice'): ['Modify', "How much do you intend to modify your professional practice, based on your experience in the Data Wise course?"],
-				re.compile("diversity of.*learning.*community"): ['Diversity', "How satisfied were you with the diversity of the course's learning community, inclusive of racial, ethnic, professional, personal, regional, institution type, and other perspectives and backgrounds?"],
 				re.compile('scale of 0 to 10'): ['Recommend', 'On a scale of 0 to 10, how likely is it that you would recommend the Data Wise Leadership Institute to a friend or colleague?'],
 				re.compile('testimonial'): ['Testimonial', 'Please use the space below to share your testimonial'],
-				re.compile('support.*staff'): ['Support', 'Please indicate your satisfaction with the support from the program staff']
+				re.compile('support.*staff'): ['Support', 'Please indicate your satisfaction with the support from the program staff'],
+				re.compile('learning objectives'): ['Objectives', 'Please indicate to what extent these learning objectives were effectively covered during the course']
 				},
 				#For components, you'll also need to list the component -- split on "-"
 		'DWO': {re.compile('components'): ['Components', 'Please rate the extent to which each of the following components helped you to prepare to launch the Data Wise Improvement Process at your site'],
@@ -210,15 +209,15 @@ def normalize_crosstab(values, program, year, day):
 				},
 		'DWAU': {re.compile('rate the overall quality'): ['Quality', 'How would you rate the overall quality of this program?'],
 				re.compile('equity is central'): ['Equity1', "Today's sessions helped me articulate how and why equity is central to the work of school improvement"],
-				re.compile('service of equity'): ['Equity2',"Today's class and activities helped me reflect on how Data Wise tools could be used in the service of equity"],
+				re.compile('foster equitable practices'): ['Equity2',"Today's sessions helped me build skills to use Data Wise tools to foster equitable practices"],
 				re.compile('team.*norms'): ['Team Norms',"In the team that you came to Harvard with, how well are you and your colleagues following norms?"],
 				re.compile('group.*norms'): ['Group Norms', "To what extent did your case group practice our Data Wise norms today?"],
 				re.compile('professionally useful'): ['Useful', "To what extent did you find the Data Wise course professionally useful?"],
 				re.compile('modify your professional practice'): ['Modify', "How much do you intend to modify your professional practice, based on your experience in the Data Wise course?"],
-				re.compile("diversity of.*learning.*community"): ['Diversity', "How satisfied were you with the diversity of the course's learning community, inclusive of racial, ethnic, professional, personal, regional, institution type, and other perspectives and backgrounds?"],
 				re.compile('scale of 0 to 10'): ['Recommend', 'On a scale of 0 to 10, how likely is it that you would recommend the Data Wise Leadership Institute to a friend or colleague?'],
 				re.compile('testimonial'): ['Testimonial', 'Please use the space below to share your testimonial'],
-				re.compile('support.*staff'): ['Support', 'Please indicate your satisfaction with the support from the program staff']
+				re.compile('support.*staff'): ['Support', 'Please indicate your satisfaction with the support from the program staff'],
+				re.compile('learning objectives'): ['Objectives', 'Please indicate to what extent these learning objectives were effectively covered during the course']
 				},
 		'DWN': [],
 
@@ -332,7 +331,7 @@ def normalize_crosstab(values, program, year, day):
 
 					#Don't do everything over for the next column
 					#We'll have duplicates and that's BAD
-					if session == current_session:
+					if session == current_session and session_leader == current_leader:
 						continue
 
 					question = split_string[-1].strip()
@@ -344,23 +343,26 @@ def normalize_crosstab(values, program, year, day):
 					for j in range(datacol+1,datacol+4):
 						next_question_text = headers[firstDataCol + j].replace('\n','')
 						if re.search('\[([^\s]+) Session\]', next_question_text) is not None:
-							second_metric_found = True
 							second_split = re.split('[\[|\]|\(|\)|-]', next_question_text)
 							second_split.pop(0)
+							#If we're looking at a different session then we don't want to do any of this
 							second_question = second_split[-1].strip()
 							second_response = row[firstDataCol + j].replace('\n',' ').strip()
 							if second_response == '' or second_response == ' ':
 								second_response = 'Blank'
-						elif re.search('What worked well.*about.*(session|case discussion)', next_question_text) is not None:
+							second_metric_found = True
+						elif re.search('What worked well.*about', next_question_text) is not None:
 							#next_question = 'What worked well about this session?'
 							plus = row[firstDataCol + j].replace('\n',' ')
 							if plus == '' or plus == ' ':
 								plus = 'Blank'
-						elif re.search('What would you.*change.*about.*(session|case discussion)', next_question_text) is not None:
+						elif re.search('What would you.*change.*about', next_question_text) is not None:
 							#next_question = 'What would you have liked to change about this session?'
 							delta = row[firstDataCol + j].replace('\n',' ')
 							if delta == '' or delta == ' ':
 								delta = 'Blank'
+							#Deltas are always last so break out of loop after deltas
+							break
 
 					split_string = re.split('[\[|\]|\(|\)|-]', question_text)
 					split_string.pop(0)
