@@ -8,7 +8,6 @@ import requests
 import zipfile
 import json
 import io, os
-
 import csv
 import re
 
@@ -517,7 +516,8 @@ def getDataRoleTeamCols(values):
 	for i in range(len(values[0])):
 		column = values[1][i]
 		m = column.find('kind of team')
-		if m != -1:
+		n = column.find('which team')
+		if m != -1 or n != -1:
 			team_col = i
 			break
 
