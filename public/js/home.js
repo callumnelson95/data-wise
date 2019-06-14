@@ -6,6 +6,9 @@ $( document ).ready(function(){
 
 	$('#submit-button').click(function(){
 
+		var modal = $('#myModal');
+		modal.attr("style", "display:block");
+
 		var program = $('#program').val();
 		var year = $('#year').val();
 		var day = $('#day').val();
@@ -21,6 +24,7 @@ $( document ).ready(function(){
 		$.post( "/run", data, function( data ) {
 
 			if (data.status == "Error"){
+				modal.attr("style", "display:none");
 				alert( data.status + data.message );
 			}
 			else{
@@ -28,6 +32,7 @@ $( document ).ready(function(){
 				$('#year').val('Select year');
 				$('#day').val('');
 				$('#survey_id').val('');
+				modal.attr("style", "display:none");
 				alert( data.status + data.message );
 			}
 		
