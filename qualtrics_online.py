@@ -181,7 +181,7 @@ def normalize_crosstab(values, program, year, day):
 				re.compile('rate the overall quality'): ['Quality', 'How would you rate the overall quality of this program?'],
 				re.compile('intellectually challenging'): ['Challenge', "Today's class and activities were intellectually challenging"],
 				re.compile('equity is central'): ['Equity1', "Today's sessions helped me articulate how and why equity is central to the work of school improvement"],
-				re.compile('service of equity'): ['Equity2',"Today's class and activities helped me reflect on how Data Wise tools could be used in the service of equity"],
+				re.compile('integrate equity'): ['Equity2',"Today's sessions helped me build skills to integrate equity at each step of the improvement process."],
 				re.compile('team.*norms'): ['Team Norms',"In the team that you came to Harvard with, how well are you and your colleagues following norms?"],
 				re.compile('group.*norms'): ['Group Norms', "To what extent did your case group practice our Data Wise norms today?"],
 				re.compile('professionally useful'): ['Useful', "To what extent did you find the Data Wise course professionally useful?"],
