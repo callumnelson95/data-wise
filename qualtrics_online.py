@@ -428,6 +428,13 @@ def normalize_crosstab(values, program, year, day):
 							new_question_text = question_search_dict[program][regex][1]
 							if question_category is 'Team Norms' or question_category is 'Group Norms' or question_category is 'Components' or question_category is 'Objectives' or question_category is 'Support':
 								new_question_text = question_text.split("-")[-1].strip()
+							
+							#Feedback must be the question immediately after the equity question
+							if question_category == 'Equity1' or question_category == 'Equity2':
+								feedback = row[firstDataCol + datacol + 1]
+							if feedback == '' or feedback == ' ':
+								feedback = 'Blank'
+
 							newRow.append(role)
 							newRow.append(team)
 							newRow.append(program)
@@ -437,6 +444,7 @@ def normalize_crosstab(values, program, year, day):
 							newRow.append(question_category)
 							newRow.append(new_question_text)
 							newRow.append(response)
+							newRow.append(feedback)
 							overallRows.append(newRow)
 							#we're duplicating info here because the equity questions are part of the objectives
 							#objectives come first, so if we find them, get out of here!
