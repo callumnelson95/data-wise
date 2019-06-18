@@ -250,7 +250,6 @@ def normalize_crosstab(values, program, year, day):
 	overallHeader.append('Question Category')
 	overallHeader.append('Question Text')
 	overallHeader.append('Response')
-	overallHeader.append('Feedback')
 	overallRows.append(overallHeader)
 
 	sessionHeader.append('Role')
@@ -271,8 +270,8 @@ def normalize_crosstab(values, program, year, day):
 		row = values[i]
 
 		#Don't want these responses to be collected in our data
-		#if row[2] == 'Survey Preview':
-		#	continue
+		if row[2] == 'Survey Preview':
+			continue
 
 		role = ''
 		team = ''
@@ -292,7 +291,7 @@ def normalize_crosstab(values, program, year, day):
 
 		#These are the only programs with sessions, so they're the only ones
 		#we want to look for sessions in
-		if program == 'DWJ' or program == 'DWI' or program == 'DWAU' or program == 'DWH' or program == 'DWSB':
+		if program == 'DWJ' or program == 'DWI' or program == 'DWAU' or program == 'DWH':
 
 			current_type = ''
 			current_session = ''
@@ -428,14 +427,6 @@ def normalize_crosstab(values, program, year, day):
 							new_question_text = question_search_dict[program][regex][1]
 							if question_category is 'Team Norms' or question_category is 'Group Norms' or question_category is 'Components' or question_category is 'Objectives' or question_category is 'Support':
 								new_question_text = question_text.split("-")[-1].strip()
-							
-							#Get feedback for equity questions from the next column over
-							#Feedback MUST be the question right after the equity question
-							if question_category == 'Equity1' or question_category == 'Equity2':
-								feedback = row[firstDataCol + datacol + 1]
-							else if feedback == '' or feedback == ' ':
-								feedback = 'Blank'
-
 							newRow.append(role)
 							newRow.append(team)
 							newRow.append(program)
@@ -445,7 +436,6 @@ def normalize_crosstab(values, program, year, day):
 							newRow.append(question_category)
 							newRow.append(new_question_text)
 							newRow.append(response)
-							newRow.append(feedback)
 							overallRows.append(newRow)
 							#we're duplicating info here because the equity questions are part of the objectives
 							#objectives come first, so if we find them, get out of here!
