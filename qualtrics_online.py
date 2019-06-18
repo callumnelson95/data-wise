@@ -480,6 +480,7 @@ def normalize_crosstab(values, program, year, day):
 						if question_category is 'Team Norms' or question_category is 'Group Norms' or question_category is 'Components' or question_category is 'Objectives' or question_category is 'Support':
 							new_question_text = question_text.split("-")[-1].strip()
 
+						feedback = ''
 						if question_category == 'Equity1' or question_category == 'Equity2':
 							feedback = row[firstDataCol + datacol + 1]
 						if feedback == '' or feedback == ' ':
