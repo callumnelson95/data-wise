@@ -301,7 +301,7 @@ def normalize_crosstab(values, program, year, day):
 			for datacol in range(numDataCols):
 				newRow = row[0:firstDataCol]
 				question_number = raw_headers[firstDataCol + datacol]
-				question_text = headers[firstDataCol + datacol].replace('\n','')
+				question_text = headers[firstDataCol + datacol].replace('\n',' ')
 				response = row[firstDataCol + datacol]
 
 				if response == '' or response == ' ':
