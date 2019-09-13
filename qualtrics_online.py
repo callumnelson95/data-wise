@@ -292,7 +292,7 @@ def normalize_crosstab(values, program, year, day):
 
 		#These are the only programs with sessions, so they're the only ones
 		#we want to look for sessions in
-		if program == 'DWJ' or program == 'DWI' or program == 'DWAU' or program == 'DWH':
+		if program == 'DWJ' or program == 'DWI' or program == 'DWAU' or program == 'DWH' or program == 'DWSB' or program == 'DWO':
 
 			current_type = ''
 			current_session = ''
