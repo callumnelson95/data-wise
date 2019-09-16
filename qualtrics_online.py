@@ -431,7 +431,7 @@ def normalize_crosstab(values, program, year, day):
 							
 							#Feedback must be the question immediately after the equity question
 							feedback = ''
-							if question_category == 'Equity1' or question_category == 'Equity2':
+							if program == 'DWI' and (question_category == 'Equity1' or question_category == 'Equity2'):
 								feedback = row[firstDataCol + datacol + 1]
 							if feedback == '' or feedback == ' ':
 								feedback = 'Blank'
