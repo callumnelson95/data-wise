@@ -433,8 +433,8 @@ def normalize_crosstab(values, program, year, day):
 							feedback = ''
 							if program == 'DWI' and (question_category == 'Equity1' or question_category == 'Equity2'):
 								feedback = row[firstDataCol + datacol + 1]
-							if feedback == '' or feedback == ' ':
-								feedback = 'Blank'
+								if feedback == '' or feedback == ' ':
+									feedback = 'Blank'
 
 							newRow.append(role)
 							newRow.append(team)
