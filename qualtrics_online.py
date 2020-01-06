@@ -175,7 +175,7 @@ def normalize_crosstab(values, program, year, day):
 				re.compile("diversity of.*learning.*community"): ['Diversity', "How satisfied were you with the diversity of the course's learning community, inclusive of racial, ethnic, professional, personal, regional, institution type, and other perspectives and backgrounds?"],
 				re.compile('scale of 0 to 10'): ['Recommend', 'On a scale of 0 to 10, how likely is it that you would recommend the Data Wise Leadership Institute to a friend or colleague?'],
 				re.compile('testimonial'): ['Testimonial', 'Please use the space below to share your testimonial'],
-				re.compile('support.*staff'): ['Support', 'Please indicate your satisfaction with the support from the program staff']
+				re.compile('support from.*staff'): ['Support', 'Please indicate your satisfaction with the support from the program staff']
 				},
 		'DWI': {re.compile('learning objectives'): ['Objectives', 'Please indicate to what extent these learning objectives were effectively covered during the course'],
 				re.compile('rate the overall quality'): ['Quality', 'How would you rate the overall quality of this program?'],
