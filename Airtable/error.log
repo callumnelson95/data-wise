@@ -1,0 +1,568 @@
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 171, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 57, in run
+    coach['Last']))
+UnicodeEncodeError: 'ascii' codec can't encode character '\xed' in position 29: ordinal not in range(128)
+/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/_helpers.py:255: UserWarning: Cannot access token.json: No such file or directory
+  warnings.warn(_MISSING_FILE_MESSAGE.format(filename))
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 171, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 110, in run
+    appendToSheets(final_data)
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 142, in appendToSheets
+    flow = client.flow_from_clientsecrets('credentials.json', SCOPES)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/_helpers.py", line 133, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/client.py", line 2135, in flow_from_clientsecrets
+    cache=cache)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/clientsecrets.py", line 125, in _loadfile
+    exc.strerror, exc.errno)
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'credentials.json', 'No such file or directory', 2)
+/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/_helpers.py:255: UserWarning: Cannot access token.json: No such file or directory
+  warnings.warn(_MISSING_FILE_MESSAGE.format(filename))
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 171, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 110, in run
+    appendToSheets(final_data)
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 142, in appendToSheets
+    flow = client.flow_from_clientsecrets('credentials.json', SCOPES)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/_helpers.py", line 133, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/client.py", line 2135, in flow_from_clientsecrets
+    cache=cache)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/clientsecrets.py", line 125, in _loadfile
+    exc.strerror, exc.errno)
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'credentials.json', 'No such file or directory', 2)
+/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/_helpers.py:255: UserWarning: Cannot access token.json: No such file or directory
+  warnings.warn(_MISSING_FILE_MESSAGE.format(filename))
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/clientsecrets.py", line 121, in _loadfile
+    with open(filename, 'r') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 169, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 108, in run
+    appendToSheets(final_data)
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 140, in appendToSheets
+    flow = client.flow_from_clientsecrets('credentials.json', SCOPES)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/_helpers.py", line 133, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/client.py", line 2135, in flow_from_clientsecrets
+    cache=cache)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/clientsecrets.py", line 165, in loadfile
+    return _loadfile(filename)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/clientsecrets.py", line 125, in _loadfile
+    exc.strerror, exc.errno)
+oauth2client.clientsecrets.InvalidClientSecretsError: ('Error opening file', 'credentials.json', 'No such file or directory', 2)
+0:286: execution error: "https://accounts.google.com/o/oauth2/auth?client_id=931801645673-ga93dofpa64efe82ssmupn6eli1sdipd.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fspreadsheets&access_type=offline&response_type=code" doesn’t understand the “open location” message. (-1708)
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 169, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 113, in run
+    writer.writerows(final_data)
+UnicodeEncodeError: 'ascii' codec can't encode character '\xed' in position 162: ordinal not in range(128)
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 168, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 54, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 168, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 54, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 189, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 37, in run
+    on_fire_index = headers.index('On Fire Status')
+ValueError: 'On Fire Status' is not in list
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+OSError: (50, 'ENETDOWN')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError("(50, 'ENETDOWN')",))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 118, in run
+    event_record = events_table.get(event_id)['fields']
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 202, in get
+    return self._get(record_url)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 175, in _get
+    return self._request("get", url, params=processed_params)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 170, in _request
+    response = self.session.request(method, url, params=params, json=json_data)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError("(50, 'ENETDOWN')",))
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 151, in run
+    appendToSheets(final_data)
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 218, in appendToSheets
+    valueInputOption='USER_ENTERED', body=body).execute()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/googleapiclient/http.py", line 846, in execute
+    method=str(self.method), body=self.body, headers=self.headers)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/googleapiclient/http.py", line 183, in _retry_request
+    raise exception
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/googleapiclient/http.py", line 164, in _retry_request
+    resp, content = http.request(uri, method, *args, **kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/transport.py", line 193, in new_request
+    redirections, connection_type)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/oauth2client/transport.py", line 282, in request
+    connection_type=connection_type)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/httplib2/__init__.py", line 1514, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/httplib2/__init__.py", line 1264, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/httplib2/__init__.py", line 1188, in _conn_request
+    conn.request(method, request_uri, body, headers)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1065, in _send_output
+    self.send(chunk)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 986, in send
+    self.sock.sendall(data)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/ssl.py", line 972, in sendall
+    v = self.send(byte_view[count:])
+  File "/Users/callumnelson/anaconda3/lib/python3.6/ssl.py", line 941, in send
+    return self._sslobj.write(data)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/ssl.py", line 642, in write
+    return self._sslobj.write(data)
+BrokenPipeError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+OSError: (50, 'ENETDOWN')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError("(50, 'ENETDOWN')",))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 118, in run
+    event_record = events_table.get(event_id)['fields']
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 202, in get
+    return self._get(record_url)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 175, in _get
+    return self._request("get", url, params=processed_params)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 170, in _request
+    response = self.session.request(method, url, params=params, json=json_data)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError("(50, 'ENETDOWN')",))
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+OSError: (50, 'ENETDOWN')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError("(50, 'ENETDOWN')",))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 118, in run
+    event_record = events_table.get(event_id)['fields']
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 202, in get
+    return self._get(record_url)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 175, in _get
+    return self._request("get", url, params=processed_params)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 170, in _request
+    response = self.session.request(method, url, params=params, json=json_data)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError("(50, 'ENETDOWN')",))
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+OSError: (50, 'ENETDOWN')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError("(50, 'ENETDOWN')",))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 118, in run
+    event_record = events_table.get(event_id)['fields']
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 202, in get
+    return self._get(record_url)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 175, in _get
+    return self._request("get", url, params=processed_params)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 170, in _request
+    response = self.session.request(method, url, params=params, json=json_data)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError("(50, 'ENETDOWN')",))
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+OSError: (50, 'ENETDOWN')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError("(50, 'ENETDOWN')",))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 118, in run
+    event_record = events_table.get(event_id)['fields']
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 202, in get
+    return self._get(record_url)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 175, in _get
+    return self._request("get", url, params=processed_params)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 170, in _request
+    response = self.session.request(method, url, params=params, json=json_data)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError("(50, 'ENETDOWN')",))
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+OSError: (50, 'ENETDOWN')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError("(50, 'ENETDOWN')",))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 118, in run
+    event_record = events_table.get(event_id)['fields']
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 202, in get
+    return self._get(record_url)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 175, in _get
+    return self._request("get", url, params=processed_params)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 170, in _request
+    response = self.session.request(method, url, params=params, json=json_data)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError("(50, 'ENETDOWN')",))

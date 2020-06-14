@@ -276,7 +276,7 @@ def normalize_crosstab(values, program, year, day):
 
 		role = ''
 		team = ''
-		if program == 'DWO' or program == 'DWA' or program == 'DWH':
+		if program == 'DWA' or program == 'DWH':
 			role = 'Practitioner'
 			team = 'School Team'
 		else:
