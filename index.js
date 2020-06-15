@@ -174,7 +174,7 @@ function runNormalizer(req, res) {
 		  			message: ": Visit the dashboard to see the new data!"}
 			console.log(results);
 			console.log('Success!');
-			add_to_surveys_csv(program, year, day, survey_id);
+			//add_to_surveys_csv(program, year, day, survey_id);
 			res.json(data);
 			return
 	  	}
