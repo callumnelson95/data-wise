@@ -286,6 +286,10 @@ def normalize_crosstab(values, program, year, day):
 			team = 'School Team'
 		elif program == 'DWO':
 			team = 'School Team'
+			if role_col == 0:
+				role = 'N/A'
+			else:
+				role = row[role_col]
 		else:
 			if role_col == 0:
 				role = 'N/A'
