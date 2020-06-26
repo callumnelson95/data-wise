@@ -197,6 +197,8 @@ def normalize_crosstab(values, program, year, day):
 				re.compile('intellectually challenging'): ['Challenge', "Today's class and activities were intellectually challenging"],
 				re.compile('equity is central'): ['Equity1', "Today's sessions helped me articulate how and why equity is central to the work of school improvement"],
 				re.compile('take an equity lens'): ['Equity2',"Today's sessions helped me build skills to take an equity lens at each step of the Data Wise Improvement Process"],
+				re.compile('teaching fellow actions'): ['TF Feedback', 'Please provide feedback on your teaching fellow'],
+				re.compile('specific feedback for your Teaching Fellow'): ['TF Qualitative Feedback', 'Please provide feedback on your teaching fellow'],
 				re.compile('team.*norms'): ['Team Norms',"In the team that you came to Harvard with, how well are you and your colleagues following norms?"],
 				re.compile('group.*norms'): ['Group Norms', "To what extent did your case group practice our Data Wise norms today?"],
 				re.compile('professionally useful'): ['Useful', "To what extent did you find the Data Wise course professionally useful?"],
@@ -309,7 +311,10 @@ def normalize_crosstab(values, program, year, day):
 			current_session = ''
 			current_leader = ''
 
+			school_team_col = 0
+
 			for datacol in range(numDataCols):
+
 				newRow = row[0:firstDataCol]
 				question_number = raw_headers[firstDataCol + datacol]
 				question_text = headers[firstDataCol + datacol].replace('\n',' ')
@@ -322,6 +327,13 @@ def normalize_crosstab(values, program, year, day):
 					response = response.replace('\n', ' ')
 
 
+				#Look for school/team name for Teaching Fellow Feedback
+				#Set school_team_col so you can always access it
+				s = re.search('Name of your school/team', question_text)
+				if s is not None:
+					school_team_col = datacol
+
+				#Search for session pattern
 				m = re.search('\[([^\s]+) Session\]', question_text)
 				
 				# CASE 1: A session has been found, deal with it appropriately
@@ -488,7 +500,7 @@ def normalize_crosstab(values, program, year, day):
 						if question_category == 'Recommend':
 							response = response.split(' ')[0]
 						new_question_text = question_search_dict[program][regex][1]
-						if question_category is 'Team Norms' or question_category is 'Group Norms' or question_category is 'Components' or question_category is 'Objectives' or question_category is 'Support':
+						if question_category in ['Team Norms', 'Group Norms', 'Components', 'Objectives', 'Support', 'TF Feedback']:
 							new_question_text = question_text.split("-")[-1].strip()
 
 						feedback = ''
@@ -496,6 +508,16 @@ def normalize_crosstab(values, program, year, day):
 							feedback = row[firstDataCol + datacol + 1]
 						if feedback == '' or feedback == ' ':
 							feedback = 'Blank'
+
+						#Put feedback in the feedback column and not in the response column
+						if question_category == 'TF Qualitative Feedback':
+							feedback = response
+							response = ''
+
+						#Put school/team value in column M if it's a feedback question
+						if question_category in ['TF Feedback', 'TF Qualitative Feedback']:
+							school_team = row[firstDataCol + school_team_col]
+							newRow[12] = school_team
 
 						newRow.append(role)
 						newRow.append(team)
