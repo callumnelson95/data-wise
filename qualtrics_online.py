@@ -449,7 +449,7 @@ def normalize_crosstab(values, program, year, day):
 							if question_category == 'Recommend':
 								response = response.split(' ')[0]
 							new_question_text = question_search_dict[program][regex][1]
-							if question_category is 'Team Norms' or question_category is 'Group Norms' or question_category is 'Components' or question_category is 'Objectives' or question_category is 'Support':
+							if question_category in ['Team Norms', 'Group Norms', 'Components', 'Objectives', 'Support', 'TF Feedback']:
 								new_question_text = question_text.split("-")[-1].strip()
 							
 							#Feedback must be the question immediately after the equity question
@@ -458,6 +458,17 @@ def normalize_crosstab(values, program, year, day):
 								feedback = row[firstDataCol + datacol + 1]
 								if feedback == '' or feedback == ' ':
 									feedback = 'Blank'
+
+
+							#Put feedback in the feedback column and not in the response column
+							if question_category == 'TF Qualitative Feedback':
+								feedback = response
+								response = ''
+
+							#Put school/team value in column M if it's a feedback question
+							if question_category in ['TF Feedback', 'TF Qualitative Feedback']:
+								school_team = row[firstDataCol + school_team_col]
+								newRow[12] = school_team
 
 							newRow.append(role)
 							newRow.append(team)
@@ -500,7 +511,7 @@ def normalize_crosstab(values, program, year, day):
 						if question_category == 'Recommend':
 							response = response.split(' ')[0]
 						new_question_text = question_search_dict[program][regex][1]
-						if question_category in ['Team Norms', 'Group Norms', 'Components', 'Objectives', 'Support', 'TF Feedback']:
+						if question_category in ['Team Norms', 'Group Norms', 'Components', 'Objectives', 'Support']:
 							new_question_text = question_text.split("-")[-1].strip()
 
 						feedback = ''
@@ -508,16 +519,6 @@ def normalize_crosstab(values, program, year, day):
 							feedback = row[firstDataCol + datacol + 1]
 						if feedback == '' or feedback == ' ':
 							feedback = 'Blank'
-
-						#Put feedback in the feedback column and not in the response column
-						if question_category == 'TF Qualitative Feedback':
-							feedback = response
-							response = ''
-
-						#Put school/team value in column M if it's a feedback question
-						if question_category in ['TF Feedback', 'TF Qualitative Feedback']:
-							school_team = row[firstDataCol + school_team_col]
-							newRow[12] = school_team
 
 						newRow.append(role)
 						newRow.append(team)
