@@ -680,3 +680,610 @@ Traceback (most recent call last):
   File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 508, in send
     raise ConnectionError(e, request=request)
 requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.airtable.com', port=443): Max retries exceeded with url: /v0/app0bcm2GEEGdlC7K/Events (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10cb0f6d8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+OSError: (50, 'ENETDOWN')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError("(50, 'ENETDOWN')",))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 118, in run
+    event_record = events_table.get(event_id)['fields']
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 202, in get
+    return self._get(record_url)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 175, in _get
+    return self._request("get", url, params=processed_params)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 170, in _request
+    response = self.session.request(method, url, params=params, json=json_data)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError("(50, 'ENETDOWN')",))
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+OSError: (54, 'ECONNRESET')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError("(54, 'ECONNRESET')",))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 118, in run
+    event_record = events_table.get(event_id)['fields']
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 202, in get
+    return self._get(record_url)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 175, in _get
+    return self._request("get", url, params=processed_params)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 170, in _request
+    response = self.session.request(method, url, params=params, json=json_data)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError("(54, 'ECONNRESET')",))
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+OSError: (50, 'ENETDOWN')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError("(50, 'ENETDOWN')",))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 118, in run
+    event_record = events_table.get(event_id)['fields']
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 202, in get
+    return self._get(record_url)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 175, in _get
+    return self._request("get", url, params=processed_params)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 170, in _request
+    response = self.session.request(method, url, params=params, json=json_data)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError("(50, 'ENETDOWN')",))
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x10db7f6d8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.airtable.com', port=443): Max retries exceeded with url: /v0/app0bcm2GEEGdlC7K/Events (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10db7f6d8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 24, in run
+    all_events = events_table.get_all()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 273, in get_all
+    for records in self.get_iter(**options):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 237, in get_iter
+    data = self._get(self.url_table, offset=offset, **options)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 175, in _get
+    return self._request("get", url, params=processed_params)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 170, in _request
+    response = self.session.request(method, url, params=params, json=json_data)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 508, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.airtable.com', port=443): Max retries exceeded with url: /v0/app0bcm2GEEGdlC7K/Events (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10db7f6d8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+OSError: (60, 'ETIMEDOUT')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 1331, in getresponse
+    response.begin()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/Users/callumnelson/anaconda3/lib/python3.6/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/callumnelson/anaconda3/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 285, in recv_into
+    raise SocketError(str(e))
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError("(60, 'ETIMEDOUT')",))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 118, in run
+    event_record = events_table.get(event_id)['fields']
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 202, in get
+    return self._get(record_url)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 175, in _get
+    return self._request("get", url, params=processed_params)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/airtable/airtable.py", line 170, in _request
+    response = self.session.request(method, url, params=params, json=json_data)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/callumnelson/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 490, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError("(60, 'ETIMEDOUT')",))
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
+Traceback (most recent call last):
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 225, in <module>
+    run()
+  File "/Users/callumnelson/Desktop/DataWise_Qualtrics/Airtable/airtable_dump.py", line 69, in run
+    print('Current coach: {0} {1}'.format(coach['First'].encode(), \
+KeyError: 'First'
