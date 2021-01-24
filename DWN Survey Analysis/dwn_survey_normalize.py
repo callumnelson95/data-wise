@@ -19,11 +19,11 @@ def main():
 		print("set environment variable X_API_TOKEN")
 		sys.exit(2) 
 
-
 	survey_ids = {
 		
 		#'2018_DWN' : 'SV_d0Z3XrdLH1zxsNv',
-		'2019_DWN' : 'SV_5BUk30cSPDBLijX'
+		#'2019_DWN' : 'SV_5BUk30cSPDBLijX',
+		'2020_DWN' : 'SV_5vSXXTCimS8A0br'
 	}
 
 	for survey_name in survey_ids:
@@ -104,7 +104,7 @@ def historical():
 	path_names = {
 
 		#'2018_DWN' : 'DWN18 Data Wise Coach Network Impact Survey.csv'
-		'2019_DWN' : 'DWN19 Data Wise Coach Network Survey.csv'
+		#'2019_DWN' : 'DWN19 Data Wise Coach Network Survey.csv'
 
 	}
 
@@ -143,6 +143,16 @@ def normalize_crosstab(values, program, year, day):
 
 	question_search_dict = {
 		
+		'2020DWN': {re.compile('following activities'): ['Using DW', 'Please indicate your past engagement and future plans around the following engagement activities'],
+				re.compile('following outreach activities'): ['Sharing DW', 'Please indicate your past engagement and future plans around the following outreach activities'],
+				re.compile('opportunities to work with Data Wise Institutes'): ['Teaching DW', 'Please select the type(s) of programs that you are interested in working with'],
+				re.compile('upcoming equity workshops'): ['Learning DW', 'Which of the following virtual learning opportunities do you plan to attend?'],
+				re.compile('training outside of your own organization'): ['Other1', 'Did you provide Data Wise or Meeting Wise training outside of your own organization in the last year?'],
+				re.compile('shifting the norm in future courses and materials'): ['Other2', 'To what extent would you agree with the idea of shifting the norm in future courses and materials?'],
+				re.compile('to impact learning, teaching,'): ['Impact Story', 'In a few sentences, please tell us a story about a way in which you have used Data Wise or Meeting Wise to impact learning, teaching, and/or building equitable schools in the last year.'],
+				re.compile('anything else you want'): ['Anything Else', 'Is there anything else you want us to know?'],
+				re.compile('add your perspective about the proposed norm shift here'): ['Other Feedback', 'Please feel free to add your perspective about the proposed norm shift here, including any language you think would be helpful for us to use when communicating about a norm shift.']
+		},
 		'2019DWN': {re.compile('following activities'): ['Using DW', 'Please indicate your past engagement and future plans around the following engagement activities'],
 				re.compile('following outreach activities'): ['Sharing DW', 'Please indicate your past engagement and future plans around the following outreach activities'],
 				re.compile('opportunities to work with Data Wise Institutes'): ['Teaching DW', 'Please select the type(s) of programs that you are interested in working with'],
@@ -203,8 +213,11 @@ def normalize_crosstab(values, program, year, day):
 		for ind in range(len(headers)):
 			if headers[ind].find('Please select your name') != -1:
 				#remove ID to get full name
-				full_name = row[ind].rsplit(' ', 1)[0]
-				coach_id = row[ind].split(" ")[-1]
+				#Need to fix -- messing up some names
+				#Could just take last three characters from the string and strip
+				full_name = re.sub('\d+', '', row[ind]).strip()
+				coach_id = re.findall('\d+', row[ind])[0].strip()
+				x = 'hi'
 
 
 		for datacol in range(numDataCols):
@@ -234,7 +247,7 @@ def normalize_crosstab(values, program, year, day):
 
 						question_response_option = question_text.split("-")[-1].strip()
 						#Bandaid solution for weird 2019 question
-						if year == '2019' and question_category in ['Learning DW', 'Teaching DW']:
+						if year in ['2019','2020'] and question_category in ['Learning DW', 'Teaching DW']:
 							new_question_text += ' - ' + question_text.split("-")[-1].strip()
 
 						else:
@@ -343,8 +356,8 @@ def appendToSheets(sessionRows, overallRows):
 										   .get('updatedCells')))
 
 if __name__ == '__main__':
-	#main()
-	historical()
+	main()
+	#historical()
 
 
 
